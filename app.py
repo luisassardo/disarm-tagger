@@ -237,12 +237,15 @@ SYSTEM_PROMPT = (
     "Rules:\n"
     "- Ground every technique in the framework: use search_framework and "
     "get_technique to find and confirm real technique IDs before tagging.\n"
+    "- Be decisive and economical: a couple of searches are enough. After at most "
+    "two rounds of searching, call tag_techniques with your best set. Do NOT keep "
+    "exploring — you have a small tool-call budget.\n"
     "- Never invent technique IDs. Only tag IDs that exist in the catalogue.\n"
     "- Tag only what the description supports as observable behaviour. Do not "
     "infer intent or attribution.\n"
     "- Reply in the user's language. Rationales must cite evidence from the "
     "description, not generic definitions.\n"
-    "- These are leads for reporting, not verdicts. When done, call tag_techniques once."
+    "- These are leads for reporting, not verdicts. Finish by calling tag_techniques once."
 )
 
 
@@ -514,18 +517,25 @@ _CACHED_TOOLS[-1] = {**_CACHED_TOOLS[-1], 'cache_control': {'type': 'ephemeral'}
 
 
 def _ai_tag(description, links, lang):
-    """Run the Claude tool-use loop. Returns a list of tagged techniques or None."""
+    """Run the Claude tool-use loop. Returns a list of tagged techniques or None.
+
+    The model tends to over-explore (many search_framework/get_technique calls),
+    so on the final allowed turn we force tool_choice=tag_techniques to guarantee
+    it commits to a tagged set within the turn budget instead of running out."""
     case = description
     if links:
         case += '\n\nLinks / enlaces:\n' + '\n'.join(links)
     messages = [{'role': 'user', 'content': f'Idioma/Language: {lang}\n\nCaso / Case:\n{case}'}]
     tagged = None
-    for _ in range(MAX_TOOL_TURNS):
+    for i in range(MAX_TOOL_TURNS):
+        force_tag = (i == MAX_TOOL_TURNS - 1)  # last turn -> must produce the tags
         resp = _anthropic_client.messages.create(
             model=ANTHROPIC_MODEL,
             max_tokens=2000,
             system=_CACHED_SYSTEM,
             tools=_CACHED_TOOLS,
+            tool_choice=({'type': 'tool', 'name': 'tag_techniques'} if force_tag
+                         else {'type': 'auto'}),
             messages=messages,
         )
         if resp.stop_reason != 'tool_use':
