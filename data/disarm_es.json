@@ -13,7 +13,7 @@
       "incidents": 63,
       "metatechniques": 14
     },
-    "translation_status": "untranslated-stub"
+    "translation_status": "machine-translated-unreviewed"
   },
   "tree": [
     {
@@ -57,128 +57,128 @@
   "phases": {
     "P01": {
       "disarm_id": "P01",
-      "name": "Plan",
+      "name": "Planificar",
       "rank": "1",
-      "summary": "Envision the desired outcome. Lay out effective ways of achieving it. Communicate the vision, intent, and decisions, focusing on expected results."
+      "summary": "Visualizar el resultado deseado. Delinear formas efectivas de lograrlo. Comunicar la visión, intención y decisiones, enfocándose en los resultados esperados."
     },
     "P02": {
       "disarm_id": "P02",
-      "name": "Prepare",
+      "name": "Preparar",
       "rank": "2",
-      "summary": "Activities conducted before execution to improve the ability to conduct the action. Examples include: development of the ecosystem needed to support the action: people, network, channels, content etc."
+      "summary": "Actividades realizadas antes de la ejecución para mejorar la capacidad de llevar a cabo la acción. Los ejemplos incluyen: desarrollo del ecosistema necesario para apoyar la acción: personas, redes, canales, contenido, etc."
     },
     "P03": {
       "disarm_id": "P03",
-      "name": "Execute",
+      "name": "Ejecutar",
       "rank": "3",
-      "summary": "Run the action, from initial exposure to wrap-up and/or maintaining presence etc."
+      "summary": "Realizar la acción, desde la exposición inicial hasta el cierre y/o mantenimiento de presencia."
     },
     "P04": {
       "disarm_id": "P04",
-      "name": "Assess",
+      "name": "Evaluar",
       "rank": "4",
-      "summary": "Evaluate effectiveness of action, for use in future plans"
+      "summary": "Evaluar la efectividad de la acción, para su uso en planes futuros."
     }
   },
   "tactics": {
     "TA01": {
       "disarm_id": "TA01",
       "phase_id": "P01",
-      "name": "Strategic Planning",
+      "name": "Planificación Estratégica",
       "rank": "1",
-      "summary": "Define the desired end state, i.e. the set of required conditions that defines achievement of all objectives."
+      "summary": "Definir el estado final deseado, es decir, el conjunto de condiciones requeridas que define el logro de todos los objetivos."
     },
     "TA09": {
       "disarm_id": "TA09",
       "phase_id": "P03",
-      "name": "Exposure",
+      "name": "Exposición",
       "rank": "10",
-      "summary": "Release content to general public or push to larger population"
+      "summary": "Liberar contenido al público general o distribuir a una población más amplia"
     },
     "TA10": {
       "disarm_id": "TA10",
       "phase_id": "P03",
-      "name": "Drive Offline Activity",
+      "name": "Impulsar Actividad Offline",
       "rank": "11",
-      "summary": "Move incident into offline world"
+      "summary": "Trasladar el incidente al mundo offline"
     },
     "TA11": {
       "disarm_id": "TA11",
       "phase_id": "P03",
-      "name": "Persistence",
+      "name": "Persistencia",
       "rank": "12",
-      "summary": "Keep incident 'alive', beyond the incident creators' efforts"
+      "summary": "Mantener el incidente 'activo', más allá de los esfuerzos de los creadores del incidente"
     },
     "TA12": {
       "disarm_id": "TA12",
       "phase_id": "P04",
-      "name": "Measure Effectiveness",
+      "name": "Medir Efectividad",
       "rank": "13",
-      "summary": "Measure effectiveness of incident, for use in planning future events"
+      "summary": "Medir la efectividad del incidente, para utilizarse en la planificación de eventos futuros"
     },
     "TA02": {
       "disarm_id": "TA02",
       "phase_id": "P01",
-      "name": "Objective Planning",
+      "name": "Planificación de Objetivos",
       "rank": "2",
-      "summary": "Set clearly defined, measurable, and achievable objectives. Achieving objectives ties execution of tactical tasks to reaching the desired end state. There are four primary considerations:\n- Each desired effect should link directly to one or more objectives\n- The effect should be measurable\n- The objective statement should not specify the way and means of accomplishment\n- The effect should be distinguishable from the objective it supports as a condition for success, not as another objective or task."
+      "summary": "Establecer objetivos claramente definidos, medibles y alcanzables. El logro de objetivos vincula la ejecución de tareas tácticas al alcance del estado final deseado. Existen cuatro consideraciones principales:\n- Cada efecto deseado debe vincularse directamente a uno o más objetivos\n- El efecto debe ser medible\n- La declaración de objetivos no debe especificar la forma y los medios de ejecución\n- El efecto debe ser distinguible del objetivo al que respalda como condición de éxito, no como otro objetivo o tarea."
     },
     "TA13": {
       "disarm_id": "TA13",
       "phase_id": "P01",
-      "name": "Conduct Center of Gravity Analysis",
+      "name": "Conducir Análisis de Centro de Gravedad",
       "rank": "3",
-      "summary": "Recon/research to identify \"the source of power that provides moral or physical strength, freedom of action, or will to act.\" Thus, the center of gravity is usually seen as the \"source of strength\". Includes demographic and network analysis of communities"
+      "summary": "Reconocimiento e investigación para identificar \"la fuente de poder que proporciona fortaleza moral o física, libertad de acción, o voluntad de actuar\". Por lo tanto, el centro de gravedad usualmente se considera la \"fuente de fortaleza\". Incluye análisis demográfico y de redes de comunidades"
     },
     "TA03": {
       "disarm_id": "TA03",
       "phase_id": "P02",
-      "name": "Develop People",
+      "name": "Desarrollar Personas",
       "rank": "4",
-      "summary": "Develop online and offline users and agents, including automated personas"
+      "summary": "Desarrollar usuarios y agentes online y offline, incluyendo personajes automatizados"
     },
     "TA04": {
       "disarm_id": "TA04",
       "phase_id": "P02",
-      "name": "Develop Networks",
+      "name": "Desarrollar Redes",
       "rank": "5",
-      "summary": "Develop online and offline communities and transmission methods and cultivate assets and unwitting agents"
+      "summary": "Desarrollar comunidades online y offline, métodos de transmisión, y cultivar activos y agentes involuntarios"
     },
     "TA05": {
       "disarm_id": "TA05",
       "phase_id": "P02",
-      "name": "Microtargeting",
+      "name": "Microdireccionamiento",
       "rank": "6",
-      "summary": "Target very specific populations of people"
+      "summary": "Dirigirse a poblaciones muy específicas de personas"
     },
     "TA06": {
       "disarm_id": "TA06",
       "phase_id": "P02",
-      "name": "Develop Content",
+      "name": "Desarrollar Contenido",
       "rank": "7",
-      "summary": "Create and acquire content used in incident"
+      "summary": "Crear y adquirir contenido utilizado en el incidente"
     },
     "TA07": {
       "disarm_id": "TA07",
       "phase_id": "P02",
-      "name": "Channel Selection",
+      "name": "Selección de Canales",
       "rank": "8",
-      "summary": "Set up specific delivery, amplification and manipulation channels for incident, including channels to attack. Each channel serves as an atomic surface (test bed) location/site for adversary to hide/conceal the work/content that goes into setting up for this channel and/or other specific platforms. Contributes to building out a connected ecosystem where this channel can operate as part of a whole campaign/incident"
+      "summary": "Configurar canales específicos de entrega, amplificación y manipulación para el incidente, incluyendo canales a atacar. Cada canal sirve como una ubicación/sitio de superficie atómica (banco de pruebas) para que el adversario oculte/disimule el trabajo/contenido que se invierte en configurar este canal y/u otras plataformas específicas. Contribuye a construir un ecosistema conectado donde este canal puede operar como parte de una campaña/incidente integral"
     },
     "TA08": {
       "disarm_id": "TA08",
       "phase_id": "P03",
-      "name": "Pump Priming",
+      "name": "Cebado Inicial",
       "rank": "9",
-      "summary": "Release content on a targetted small scale, prior to general release, including releasing seed. Used for preparation before broader release, and as message honing.  Used for preparation before broader release, and as message honing. "
+      "summary": "Liberar contenido a pequeña escala dirigida, antes de la liberación general, incluyendo la liberación de semilla. Se utiliza para preparación antes de una liberación más amplia y para perfeccionar mensajes. Se utiliza para preparación antes de una liberación más amplia y para perfeccionar mensajes."
     }
   },
   "techniques": {
     "T0001": {
       "disarm_id": "T0001",
       "tactic_id": "TA01",
-      "name": "5Ds (dismiss, distort, distract, dismay, divide)",
-      "summary": "Nimmo's \"4Ds of propaganda\": dismiss, distort, distract, dismay (MisinfosecWG added divide in 2019). Misinformation promotes an agenda by advancing narratives supportive of that agenda. This is most effective when the advanced narrative pre-dates the revelation of the specific misinformation content. This is often not possible.",
+      "name": "5Ds (desmentir, distorsionar, distraer, desmoralizar, dividir)",
+      "summary": "Los \"4Ds de la propaganda\" de Nimmo: desmentir, distorsionar, distraer, desmoralizar (el MisinfosecWG agregó dividir en 2019). La desinformación promueve una agenda avanzando narrativas que la respaldan. Esto es más efectivo cuando la narrativa avanzada precede la revelación del contenido específico de desinformación. A menudo esto no es posible.",
       "counter_ids": [
         "C00008",
         "C00011",
@@ -212,8 +212,8 @@
     "T0002": {
       "disarm_id": "T0002",
       "tactic_id": "TA01",
-      "name": "Facilitate State Propaganda",
-      "summary": "Organize citizens around pro-state messaging. Coordinate paid or volunteer groups to push state propaganda.",
+      "name": "Facilitar Propaganda Estatal",
+      "summary": "Organizar ciudadanos en torno a mensajes pro-estatales. Coordinar grupos pagos o voluntarios para impulsar propaganda estatal.",
       "counter_ids": [
         "C00008",
         "C00011",
@@ -249,8 +249,8 @@
     "T0003": {
       "disarm_id": "T0003",
       "tactic_id": "TA01",
-      "name": "Leverage Existing Narratives",
-      "summary": "Use or adapt existing narrative themes, where narratives are the baseline stories of a target audience. Narratives form the bedrock of our worldviews. New information is understood through a process firmly grounded in this bedrock. If new information is not consitent with the prevailing narratives of an audience, it will be ignored. Effective campaigns will frame their misinformation in the context of these narratives. Highly effective campaigns will make extensive use of audience-appropriate archetypes and meta-narratives throughout their content creation and amplifiction practices. ",
+      "name": "Aprovechar Narrativas Existentes",
+      "summary": "Utilizar o adaptar temas narrativos existentes, donde las narrativas son las historias base de una audiencia objetivo. Las narrativas forman el fundamento de nuestras cosmovisiones. La información nueva se comprende a través de un proceso firmemente arraigado en este fundamento. Si la información nueva no es consistente con las narrativas predominantes de una audiencia, será ignorada. Las campañas efectivas enmarcarán su desinformación en el contexto de estas narrativas. Las campañas altamente efectivas harán uso extensivo de arquetipos y meta-narrativas apropiados para la audiencia en todas sus prácticas de creación y amplificación de contenido.",
       "counter_ids": [
         "C00008",
         "C00011",
@@ -289,8 +289,8 @@
     "T0004": {
       "disarm_id": "T0004",
       "tactic_id": "TA01",
-      "name": "Devise Competing Narratives",
-      "summary": "Advance competing narratives connected to same issue ie: on one hand deny incident while at same time expresses dismiss. \n\nSuppressing or discouraging narratives already spreading requires an alternative. The most simple set of narrative techniques in response would be the construction and promotion of contradictory alternatives centered on denial, deflection, dismissal, counter-charges, excessive standards of proof, bias in prohibition or enforcement, and so on.\n\nThese competing narratives allow loyalists cover, but are less compelling to opponents and fence-sitters than campaigns built around existing narratives or highly explanatory master narratives. Competing narratives, as such, are especially useful in the \"firehose of misinformation\" approach.",
+      "name": "Idear Narrativas Competidoras",
+      "summary": "Avanzar narrativas competidoras conectadas al mismo tema, por ejemplo: por un lado negar el incidente mientras simultáneamente se expresa desmentida. Suprimir o desalentar narrativas que ya se están propagando requiere una alternativa. El conjunto más simple de técnicas narrativas en respuesta sería la construcción y promoción de alternativas contradictorias centradas en negación, deflexión, desmentida, contra-acusaciones, estándares excesivos de prueba, sesgo en prohibición o aplicación, y similares. Estas narrativas competidoras permiten cobertura a los leales, pero son menos convincentes para opositores y personas indecisos que campañas construidas alrededor de narrativas existentes o meta-narrativas maestras altamente explicativas. Las narrativas competidoras, como tales, son especialmente útiles en el enfoque de \"manguera de desinformación\".",
       "counter_ids": [
         "C00042",
         "C00080",
@@ -310,8 +310,8 @@
     "T0006": {
       "disarm_id": "T0006",
       "tactic_id": "TA02",
-      "name": "Develop Narrative Concepts",
-      "summary": "The promotion of beneficial master narratives is perhaps the most effective method for achieving long-term strategic narrative dominance. From a \"whole of society\" perspective the promotion of the society's core master narratives should occupy a central strategic role. From a misinformation campaign / cognitive security perpectve the tactics around master narratives center more precisely on the day-to-day promotion and reinforcement of this messaging. In other words, beneficial, high-coverage master narratives are a central strategic goal and their promotion consitutes an ongoing tactical struggle carried out at a whole-of-society level.  Tactically, their promotion covers a broad spectrum of activities both on- and offline.",
+      "name": "Desarrollar Conceptos Narrativos",
+      "summary": "La promoción de meta-narrativas maestras beneficiosas es posiblemente el método más efectivo para lograr dominio narrativo estratégico a largo plazo. Desde una perspectiva de \"toda la sociedad\", la promoción de las meta-narrativas maestras centrales de la sociedad debería ocupar un rol estratégico central. Desde una perspectiva de desinformación / seguridad cognitiva, las tácticas alrededor de meta-narrativas se centran más precisamente en la promoción y refuerzo cotidianos de este mensaje. En otras palabras, las meta-narrativas maestras beneficiosas de alto alcance son un objetivo estratégico central y su promoción constituye una lucha táctica continua llevada a cabo a nivel de toda la sociedad. Tácticamente, su promoción abarca un amplio espectro de actividades tanto en línea como fuera de línea.",
       "counter_ids": [
         "C00008",
         "C00011",
@@ -332,8 +332,8 @@
     "T0007": {
       "disarm_id": "T0007",
       "tactic_id": "TA03",
-      "name": "Create fake Social Media Profiles / Pages / Groups",
-      "summary": "Create key social engineering assets needed to amplify content, manipulate algorithms, fool public and/or specific incident/campaign targets. \n\nComputational propaganda depends substantially on false perceptions of credibility and acceptance. By creating fake users and groups with a variety of interests and commitments, attackers can ensure that their messages both come from trusted sources and appear more widely adopted than they actually are. \n",
+      "name": "Crear Perfiles / Páginas / Grupos Falsos en Redes Sociales",
+      "summary": "Crear activos clave de ingeniería social necesarios para amplificar contenido, manipular algoritmos, engañar al público y/o objetivos específicos de incidentes/campañas. La propaganda computacional depende sustancialmente de percepciones falsas de credibilidad y aceptación. Al crear usuarios y grupos falsos con una variedad de intereses y compromisos, los atacantes pueden asegurar que sus mensajes provengan de fuentes confiables y parezcan más ampliamente adoptados de lo que realmente son.",
       "counter_ids": [
         "C00006",
         "C00012",
@@ -368,8 +368,8 @@
     "T0008": {
       "disarm_id": "T0008",
       "tactic_id": "TA03",
-      "name": "Create fake or imposter news sites",
-      "summary": "Modern computational propaganda makes use of a cadre of imposter news sites spreading globally. These sites, sometimes motivated by concerns other than propaganda--for instance, click-based revenue--often have some superficial markers of authenticity, such as naming and site-design. But many can be quickly exposed with reference to their owenership, reporting history and adverstising details.",
+      "name": "Crear Sitios de Noticias Falsos o Suplantadores",
+      "summary": "La propaganda computacional moderna utiliza una serie de sitios de noticias suplantadores que se extienden globalmente. Estos sitios, a veces motivados por preocupaciones distintas a la propaganda, por ejemplo, ingresos basados en clics, a menudo tienen algunos marcadores superficiales de autenticidad, como naming y diseño de sitio. Pero muchos pueden ser rápidamente expuestos con referencia a su propiedad, historial de reportería y detalles de publicidad.",
       "counter_ids": [
         "C00008",
         "C00011",
@@ -394,8 +394,8 @@
     "T0009": {
       "disarm_id": "T0009",
       "tactic_id": "TA03",
-      "name": "Create fake experts",
-      "summary": "Stories planted or promoted in computational propaganda operations often make use of experts fabricated from whole cloth, sometimes specifically for the story itself. ",
+      "name": "Crear Expertos Falsos",
+      "summary": "Las historias plantadas o promovidas en operaciones de propaganda computacional a menudo hacen uso de expertos fabricados de la nada, a veces específicamente para la historia en sí.",
       "counter_ids": [
         "C00008",
         "C00011",
@@ -419,8 +419,8 @@
     "T0010": {
       "disarm_id": "T0010",
       "tactic_id": "TA04",
-      "name": "Cultivate ignorant agents",
-      "summary": "Cultivate propagandists for a cause, the goals of which are not fully comprehended, and who are used cynically by the leaders of the cause. Independent actors use social media and specialised web sites to strategically reinforce and spread messages compatible with their own. Their networks are infiltrated and used by state media disinformation organisations to amplify the state’s own disinformation strategies against target populations. Many are traffickers in conspiracy theories or hoaxes, unified by a suspicion of Western governments and mainstream media. Their narratives, which appeal to leftists hostile to globalism and military intervention and nationalists against immigration, are frequently infiltrated and shaped by state-controlled trolls and altered news items from agencies such as RT and Sputnik. Also know as \"useful idiots\" or \"unwitting agents\".",
+      "name": "Cultivar Agentes Ignorantes",
+      "summary": "Cultivar propagandistas para una causa, cuyos objetivos no son completamente comprendidos, y que son utilizados cínicamente por los líderes de la causa. Actores independientes utilizan redes sociales y sitios web especializados para reforzar y difundir estratégicamente mensajes compatibles con los propios. Sus redes son infiltradas y utilizadas por organizaciones de desinformación de medios estatales para amplificar sus propias estrategias de desinformación contra poblaciones objetivo. Muchos son traficantes de teorías conspirativas u hoaxes, unificados por una sospecha de gobiernos occidentales y medios de comunicación convencionales. Sus narrativas, que atraen a izquierdistas hostiles al globalismo e intervención militar y nacionalistas contra la inmigración, frecuentemente son infiltradas y moldeadas por trolls controlados por el estado y artículos de noticias alteradas de agencias como RT y Sputnik. También conocidos como \"idiotas útiles\" o \"agentes involuntarios\".",
       "counter_ids": [
         "C00009",
         "C00036",
@@ -467,8 +467,8 @@
     "T0011": {
       "disarm_id": "T0011",
       "tactic_id": "TA04",
-      "name": "Compromise legitimate account",
-      "summary": "Hack or take over legimate accounts to distribute misinformation or damaging content. ",
+      "name": "Comprometer Cuenta Legítima",
+      "summary": "Hackear o tomar control de cuentas legítimas para distribuir desinformación o contenido dañino.",
       "counter_ids": [
         "C00053",
         "C00098",
@@ -485,8 +485,8 @@
     "T0012": {
       "disarm_id": "T0012",
       "tactic_id": "TA04",
-      "name": "Use concealment",
-      "summary": "Use anonymous social media profiles. Examples include page or group administrators, masked \"whois\" website directory data, no bylines connected to news article, no masthead connect to news websites. ",
+      "name": "Usar Ocultamiento",
+      "summary": "Utilizar perfiles de redes sociales anónimos. Ejemplos incluyen administradores de página o grupo, datos del directorio \"whois\" enmascarados, sin líneas de firma conectadas a artículos de noticias, sin masthead conectado a sitios web de noticias.",
       "counter_ids": [
         "C00034",
         "C00036",
@@ -499,8 +499,8 @@
     "T0013": {
       "disarm_id": "T0013",
       "tactic_id": "TA04",
-      "name": "Create fake websites",
-      "summary": "Create media assets to support fake organizations (e.g. think tank), people (e.g. experts) and/or serve as sites to distribute malware/launch phishing operations.",
+      "name": "Crear Sitios Web Falsos",
+      "summary": "Crear activos de medios para respaldar organizaciones falsas (por ejemplo, think tank), personas (por ejemplo, expertos) y/o servir como sitios para distribuir malware/lanzar operaciones de phishing.",
       "counter_ids": [
         "C00008",
         "C00011",
@@ -517,8 +517,8 @@
     "T0014": {
       "disarm_id": "T0014",
       "tactic_id": "TA04",
-      "name": "Prepare fundraising campaigns",
-      "summary": "Generate revenue through new or existing funding campaigns. e.g. Gather data, advance credible persona via Gofundme; Patreon; or via fake website connecting via PayPal or Stripe.",
+      "name": "Preparar Campañas de Recaudación de Fondos",
+      "summary": "Generar ingresos a través de campañas de financiamiento nuevas o existentes. Por ejemplo, recopilar datos, avanzar persona creíble vía Gofundme; Patreon; o a través de sitio web falso conectado vía PayPal o Stripe.",
       "counter_ids": [
         "C00008",
         "C00012",
@@ -540,8 +540,8 @@
     "T0015": {
       "disarm_id": "T0015",
       "tactic_id": "TA04",
-      "name": "Create hashtags",
-      "summary": "Create one or more hashtags and/or hashtag groups. Many incident-based campaigns will create hashtags to promote their fabricated event.  Creating a hashtag for an incident can have two important effects: 1. Create a perception of reality around an event. Certainly only \"real\" events would be discussed in a hashtag. After all, the event has a name!, and 2. Publicize the story more widely through trending lists and search behavior.  Asset needed to direct/control/manage \"conversation\" connected to launching new incident/campaign with new hashtag for applicable social media sites). ",
+      "name": "Crear Hashtags",
+      "summary": "Crear uno o más hashtags y/o grupos de hashtags. Muchas campañas basadas en incidentes crearán hashtags para promocionar su evento fabricado. Crear un hashtag para un incidente puede tener dos efectos importantes: 1. Crear una percepción de realidad alrededor de un evento. Ciertamente, solo eventos \"reales\" serían discutidos en un hashtag. ¡Después de todo, el evento tiene un nombre! y 2. Publicizar la historia más ampliamente a través de listas de tendencias y comportamiento de búsqueda. Activo necesario para dirigir/controlar/manejar \"conversación\" conectada a lanzar nuevo incidente/campaña con nuevo hashtag para sitios de redes sociales aplicables.",
       "counter_ids": [
         "C00006",
         "C00012",
@@ -560,7 +560,7 @@
       "disarm_id": "T0016",
       "tactic_id": "TA05",
       "name": "Clickbait",
-      "summary": "Create attention grabbing headlines (outrage, doubt, humor) required to drive traffic & engagement. This is a key asset",
+      "summary": "Crear titulares que capturen atención (indignación, duda, humor) requeridos para impulsar tráfico y participación. Este es un activo clave.",
       "counter_ids": [
         "C00012",
         "C00016",
@@ -583,8 +583,8 @@
     "T0017": {
       "disarm_id": "T0017",
       "tactic_id": "TA05",
-      "name": "Conduct Fundraising Campaigns",
-      "summary": "Drive traffic/engagement to funding campaign sites; helps provide measurable metrics to assess conversion rates",
+      "name": "Conducir Campañas de Recaudación de Fondos",
+      "summary": "Impulsar tráfico/participación a sitios de campañas de financiamiento; ayuda a proporcionar métricas medibles para evaluar tasas de conversión.",
       "counter_ids": [
         "C00012",
         "C00016",
@@ -609,8 +609,8 @@
     "T0018": {
       "disarm_id": "T0018",
       "tactic_id": "TA05",
-      "name": "Purchase advertisements",
-      "summary": "Create or fund advertisements targeted at specific populations",
+      "name": "Comprar Publicidades",
+      "summary": "Crear o financiar publicidades dirigidas a poblaciones específicas.",
       "counter_ids": [
         "C00006",
         "C00010",
@@ -637,8 +637,8 @@
     "T0019": {
       "disarm_id": "T0019",
       "tactic_id": "TA06",
-      "name": "Generate information pollution",
-      "summary": "Flood social channels; drive traffic/engagement to all assets; create aura/sense/perception of pervasiveness/consensus (for or against or both simultaneously) of an issue or topic. \"Nothing is true, but everything is possible.\" Akin to astroturfing campaign.",
+      "name": "Generar Contaminación de Información",
+      "summary": "Inundar canales sociales; impulsar tráfico/participación a todos los activos; crear aura/sentido/percepción de omnipresencia/consenso (a favor, en contra o ambos simultáneamente) de un tema o asunto. \"Nada es verdadero, pero todo es posible\". Similar a una campaña de astroturfing.",
       "counter_ids": [
         "C00042",
         "C00071",
@@ -664,8 +664,8 @@
     "T0020": {
       "disarm_id": "T0020",
       "tactic_id": "TA06",
-      "name": "Trial content",
-      "summary": "Iteratively test incident performance (messages, content etc), e.g. A/B test headline/content enagagement metrics; website and/or funding campaign conversion rates",
+      "name": "Probar Contenido",
+      "summary": "Probar iterativamente el desempeño del incidente (mensajes, contenido, etc.), por ejemplo, prueba A/B de titulares/métricas de participación de contenido; tasas de conversión de sitios web y/o campañas de financiamiento.",
       "counter_ids": [
         "C00090",
         "C00136",
@@ -684,7 +684,7 @@
       "disarm_id": "T0021",
       "tactic_id": "TA06",
       "name": "Memes",
-      "summary": "Memes are one of the most important single artefact types in all of computational propaganda. Memes in this framework denotes the narrow image-based definition. But that naming is no accident, as these items have most of the important properties of Dawkins' original conception as a self-replicating unit of culture. Memes pull together reference and commentary; image and narrative; emotion and message. Memes are a powerful tool and the heart of modern influence campaigns.",
+      "summary": "Los memes son uno de los tipos de artefactos individuales más importantes en toda la propaganda computacional. Meme en este marco denota la definición estrecha basada en imágenes. Pero esa denominación no es accidental, ya que estos elementos tienen la mayoría de las propiedades importantes de la concepción original de Dawkins como unidad autorreplicante de cultura. Los memes reúnen referencia y comentario; imagen y narrativa; emoción y mensaje. Los memes son una herramienta poderosa y el corazón de campañas de influencia modernas.",
       "counter_ids": [
         "C00008",
         "C00011",
@@ -716,8 +716,8 @@
     "T0022": {
       "disarm_id": "T0022",
       "tactic_id": "TA06",
-      "name": "Conspiracy narratives",
-      "summary": "\"Conspiracy narratives appeal to the human desire for explanatory order, by invoking the participation of poweful (often sinister) actors in pursuit of their own political goals. These narratives are especially appealing when an audience is low-information, marginalized or otherwise inclined to reject the prevailing explanation. Conspiracy narratives are an important component of the \"\"firehose of falsehoods\"\" model. ",
+      "name": "Narrativas conspirativas",
+      "summary": "Las narrativas conspirativas apelan al deseo humano de orden explicativo, invocando la participación de actores poderosos (a menudo siniestros) en persecución de sus propios objetivos políticos. Estas narrativas son especialmente atractivas cuando la audiencia tiene bajo nivel de información, está marginada o es propensa a rechazar la explicación predominante. Las narrativas conspirativas son un componente importante del modelo \"lluvia de falsedades\".",
       "counter_ids": [
         "C00012",
         "C00016",
@@ -769,8 +769,8 @@
     "T0023": {
       "disarm_id": "T0023",
       "tactic_id": "TA06",
-      "name": "Distort facts",
-      "summary": "Change, twist, or exaggerate existing facts to construct a narrative that differs from reality. Examples: images and ideas can be distorted by being placed in an improper content",
+      "name": "Distorsionar hechos",
+      "summary": "Cambiar, tergiversar o exagerar hechos existentes para construir una narrativa que difiera de la realidad. Ejemplos: las imágenes e ideas pueden distorsionarse al colocarse en un contexto impropio.",
       "counter_ids": [
         "C00017",
         "C00019",
@@ -794,8 +794,8 @@
     "T0024": {
       "disarm_id": "T0024",
       "tactic_id": "TA06",
-      "name": "Create fake videos and images",
-      "summary": "Create fake videos and/or images by manipulating existing content or generating new content (e.g. deepfakes). ",
+      "name": "Crear videos e imágenes falsas",
+      "summary": "Crear videos e imágenes falsas manipulando contenido existente o generando nuevo contenido (por ejemplo, deepfakes).",
       "counter_ids": [
         "C00008",
         "C00011",
@@ -823,8 +823,8 @@
     "T0025": {
       "disarm_id": "T0025",
       "tactic_id": "TA06",
-      "name": "Leak altered documents",
-      "summary": "Obtain documents (eg by theft or leak), then alter and release, possibly among factual documents/sources. ",
+      "name": "Filtrar documentos alterados",
+      "summary": "Obtener documentos (por ejemplo, mediante robo o filtración), alterarlos y divulgarlos, posiblemente entre documentos/fuentes auténticos.",
       "counter_ids": [
         "C00008",
         "C00011",
@@ -860,8 +860,8 @@
     "T0026": {
       "disarm_id": "T0026",
       "tactic_id": "TA06",
-      "name": "Create pseudoscientific or disingenuous research",
-      "summary": "Create fake academic research. Example: fake social science research is often aimed at hot-button social issues such as gender, race and sexuality. Fake science research can target Climate Science debate or pseudoscience like anti-vaxx",
+      "name": "Crear investigación pseudocientífica o de mala fe",
+      "summary": "Crear investigación académica falsa. Ejemplo: la investigación pseudocientífica en ciencias sociales frecuentemente apunta a temas polémicos como género, raza y sexualidad. La investigación pseudocientífica puede atacar debates sobre cambio climático o pseudociencia como movimientos anti-vacunas.",
       "counter_ids": [
         "C00008",
         "C00011",
@@ -889,8 +889,8 @@
     "T0027": {
       "disarm_id": "T0027",
       "tactic_id": "TA06",
-      "name": "Adapt existing narratives",
-      "summary": "Adapting existing narratives to current operational goals is the tactical sweet-spot for an effective misinformation campaign. Leveraging existing narratives is not only more effective, it requires substantially less resourcing, as the promotion of new master narratives operates on a much larger scale, both time and scope. Fluid, dynamic & often interchangeable key master narratives can be (\"The morally corrupt West\") adapted to divisive (LGBT propaganda) or to distort (individuals working as CIA operatives). For Western audiences, different but equally powerful framings are available, such as \"USA has a fraught history in race relations, especially in criminal justice areas.\"",
+      "name": "Adaptar narrativas existentes",
+      "summary": "Adaptar narrativas existentes a objetivos operacionales actuales es el punto dulce táctico para una campaña de desinformación efectiva. Aprovechar narrativas existentes no solo es más efectivo, sino que requiere sustancialmente menos recursos, ya que la promoción de nuevas narrativas maestras opera a una escala mucho mayor, tanto en tiempo como en alcance. Narrativas maestras clave fluidas, dinámicas e intercambiables pueden adaptarse (por ejemplo, \"Occidente moralmente corrupto\") a divisiones (propaganda LGBTQ+) o para distorsionar (individuos que trabajan como operarios de la CIA). Para audiencias occidentales, existen encuadres diferentes pero igualmente poderosos, como \"Estados Unidos tiene una historia accidentada en relaciones raciales, especialmente en áreas de justicia criminal\".",
       "counter_ids": [
         "C00008",
         "C00011",
@@ -938,8 +938,8 @@
     "T0028": {
       "disarm_id": "T0028",
       "tactic_id": "TA06",
-      "name": "Create competing narratives",
-      "summary": "Misinformation promotes an agenda by advancing narratives supportive of that agenda. This is most effective when the advanced narrative pre-dates the revelation of the specific misinformation content. But this is often not possible. \n\nSuppressing or discouraging narratives already spreading requires an alternative. The most simple set of narrative techniques in response would be the construction and promotion of contradictory alternatives centered on denial, deflection, dismissal, counter-charges, excessive standards of proof, bias in prohibition or enforcement, and so on. \n\nThese competing narratives allow loyalists cover, but are less compelling to opponents and fence-sitters than campaigns built around existing narratives or highly explanatory master narratives. Competing narratives, as such, are especially useful in the *firehose of misinformation* approach.",
+      "name": "Crear narrativas competidoras",
+      "summary": "La desinformación promueve una agenda impulsando narrativas que la apoyan. Esto es más efectivo cuando la narrativa avanzada precede la revelación del contenido de desinformación específica. Pero esto frecuentemente no es posible. Suprimir o desalentar narrativas que ya se propagan requiere una alternativa. El conjunto más simple de técnicas narrativas en respuesta sería la construcción y promoción de alternativas contradictorias centradas en negación, deflexión, desprecio, contra-acusaciones, estándares excesivos de prueba, sesgo en prohibición o cumplimiento, etc. Estas narrativas competidoras permiten cobertura a leales, pero son menos convincentes para opositores e indecisos que campañas construidas sobre narrativas existentes o narrativas maestras altamente explicativas. Las narrativas competidoras, como tales, son especialmente útiles en el enfoque de \"lluvia de desinformación\".",
       "counter_ids": [
         "C00008",
         "C00011",
@@ -968,8 +968,8 @@
     "T0029": {
       "disarm_id": "T0029",
       "tactic_id": "TA07",
-      "name": "Manipulate online polls",
-      "summary": "Create fake online polls, or manipulate existing online polls. Data gathering tactic to target those who engage, and potentially their networks of friends/followers as well",
+      "name": "Manipular encuestas en línea",
+      "summary": "Crear encuestas en línea falsas o manipular encuestas en línea existentes. Táctica de recopilación de datos para dirigirse a quienes participan y potencialmente sus redes de amigos/seguidores también.",
       "counter_ids": [
         "C00044",
         "C00097",
@@ -985,8 +985,8 @@
     "T0030": {
       "disarm_id": "T0030",
       "tactic_id": "TA07",
-      "name": "Backstop personas",
-      "summary": "Create other assets/dossier/cover/fake relationships and/or connections or documents, sites, bylines, attributions, to establish/augment/inflate crediblity/believability",
+      "name": "Respaldar personas falsas",
+      "summary": "Crear otros activos/dosier/cobertura/relaciones falsas y/o conexiones o documentos, sitios, atribuciones, para establecer/aumentar/inflar credibilidad/verosimilitud.",
       "counter_ids": [
         "C00034",
         "C00036",
@@ -1004,7 +1004,7 @@
       "disarm_id": "T0031",
       "tactic_id": "TA07",
       "name": "YouTube",
-      "summary": "Use YouTube as a narrative dissemination channel",
+      "summary": "Usar YouTube como canal de difusión de narrativas.",
       "counter_ids": [],
       "incident_ids": [
         "I00005",
@@ -1023,7 +1023,7 @@
       "disarm_id": "T0032",
       "tactic_id": "TA07",
       "name": "Reddit",
-      "summary": "Use Reddit as a narrative dissemination channel",
+      "summary": "Usar Reddit como canal de difusión de narrativas.",
       "counter_ids": [],
       "incident_ids": [
         "I00005",
@@ -1042,7 +1042,7 @@
       "disarm_id": "T0033",
       "tactic_id": "TA07",
       "name": "Instagram",
-      "summary": "Use Instagram as a narrative dissemination channel",
+      "summary": "Usar Instagram como canal de difusión de narrativas.",
       "counter_ids": [],
       "incident_ids": [
         "I00017",
@@ -1053,7 +1053,7 @@
       "disarm_id": "T0034",
       "tactic_id": "TA07",
       "name": "LinkedIn",
-      "summary": "Use LinkedIn as a narrative dissemination channel",
+      "summary": "Usar LinkedIn como canal de difusión de narrativas.",
       "counter_ids": [],
       "incident_ids": [
         "I00005",
@@ -1065,7 +1065,7 @@
       "disarm_id": "T0035",
       "tactic_id": "TA07",
       "name": "Pinterest",
-      "summary": "Use Pinterest as a narrative dissemination channel",
+      "summary": "Usar Pinterest como canal de difusión de narrativas.",
       "counter_ids": [],
       "incident_ids": [
         "I00005",
@@ -1077,7 +1077,7 @@
       "disarm_id": "T0036",
       "tactic_id": "TA07",
       "name": "WhatsApp",
-      "summary": "Use WhatsApp as a narrative dissemination channel",
+      "summary": "Usar WhatsApp como canal de difusión de narrativas.",
       "counter_ids": [],
       "incident_ids": [
         "I00005",
@@ -1089,7 +1089,7 @@
       "disarm_id": "T0037",
       "tactic_id": "TA07",
       "name": "Facebook",
-      "summary": "Use Facebook as a narrative dissemination channel",
+      "summary": "Usar Facebook como canal de difusión de narrativas.",
       "counter_ids": [],
       "incident_ids": []
     },
@@ -1097,7 +1097,7 @@
       "disarm_id": "T0038",
       "tactic_id": "TA07",
       "name": "Twitter",
-      "summary": "Use Twitter as a narrative dissemination channel",
+      "summary": "Usar Twitter como canal de difusión de narrativas.",
       "counter_ids": [
         "C00098"
       ],
@@ -1106,8 +1106,8 @@
     "T0039": {
       "disarm_id": "T0039",
       "tactic_id": "TA08",
-      "name": "Bait legitimate influencers",
-      "summary": "Credibility in a social media environment is often a function of the size of a user's network. \"Influencers\" are so-called because of their reach, typically understood as: 1) the size of their network (i.e. the number of followers, perhaps weighted by their own influence); and 2) The rate at which their comments are re-circulated (these two metrics are related). Add traditional media players at all levels of credibility and professionalism to this, and the number of potential influencial carriers available for unwitting amplification becomes substantial.\n\nBy targeting high-influence people and organizations in all types of media with narratives and content engineered to appeal their emotional or ideological drivers, influence campaigns are able to add perceived credibility to their messaging via saturation and adoption by trusted agents such as celebrities, journalists and local leaders.",
+      "name": "Atrapar influyentes legítimos",
+      "summary": "La credibilidad en un entorno de redes sociales frecuentemente es función del tamaño de la red de usuarios. Los \"influyentes\" se llaman así por su alcance, típicamente entendido como: 1) el tamaño de su red (es decir, el número de seguidores, posiblemente ponderado por su propia influencia); y 2) La tasa a la que sus comentarios se recirculan (estas dos métricas están relacionadas). Agregue actores de medios tradicionales en todos los niveles de credibilidad y profesionalismo, y el número de portadores influyentes potenciales disponibles para amplificación involuntaria se vuelve sustancial. Al dirigirse a personas y organizaciones de alta influencia en todo tipo de medios con narrativas y contenido diseñados para apelar a sus impulsores emocionales o ideológicos, las campañas de influencia pueden agregar credibilidad percibida a su mensaje mediante saturación y adopción por agentes confiables como celebridades, periodistas y líderes locales.",
       "counter_ids": [
         "C00009",
         "C00027",
@@ -1136,8 +1136,8 @@
     "T0040": {
       "disarm_id": "T0040",
       "tactic_id": "TA08",
-      "name": "Demand unsurmountable proof",
-      "summary": "Campaigns often leverage tactical and informational asymmetries on the threat surface, as seen in the Distort and Deny strategies, and the \"firehose of misinformation\". Specifically, conspiracy theorists can be repeatedly wrong, but advocates of the truth need to be perfect. By constantly escalating demands for proof, propagandists can effectively leverage this asymmetry while also priming its future use, often with an even greater asymmetric advantage. The conspiracist is offered freer rein for a broader range of \"questions\" while the truth teller is burdened with higher and higher standards of proof.",
+      "name": "Exigir prueba insuperable",
+      "summary": "Las campañas frecuentemente aprovechan asimetrías tácticas e informacionales en la superficie de amenaza, como se ve en las estrategias de Distorsión y Negación, y la \"lluvia de desinformación\". Específicamente, los teóricos de la conspiración pueden estar repetidamente equivocados, pero los defensores de la verdad necesitan ser perfectos. Al escalar constantemente las exigencias de prueba, los propagandistas pueden aprovechar efectivamente esta asimetría mientras priman su uso futuro, frecuentemente con una ventaja aún mayor asimétrica. Al conspiracionista se le ofrece mayor libertad para un rango más amplio de \"preguntas\" mientras que el defensor de la verdad se carga con estándares de prueba cada vez más altos.",
       "counter_ids": [
         "C00073",
         "C00112"
@@ -1150,8 +1150,8 @@
     "T0041": {
       "disarm_id": "T0041",
       "tactic_id": "TA08",
-      "name": "Deny involvement",
-      "summary": "Without \"smoking gun\" proof (and even with proof), incident creator can or will deny involvement. This technique also leverages the attacker advantages outlined in T0040 \"Demand unsurmountable proof\", specifically the asymmetric disadvantage for truth-tellers in a \"firehose of misinformation\" environment.",
+      "name": "Negar implicación",
+      "summary": "Sin prueba definitiva \"irrefutable\" (e incluso con prueba), el creador del incidente puede o negará implicación. Esta técnica también aprovecha las ventajas del atacante descritas en T0040 \"Exigir prueba insuperable\", específicamente la desventaja asimétrica para defensores de la verdad en un entorno de \"lluvia de desinformación\".",
       "counter_ids": [
         "C00115",
         "C00116",
@@ -1162,8 +1162,8 @@
     "T0042": {
       "disarm_id": "T0042",
       "tactic_id": "TA08",
-      "name": "Kernel of Truth",
-      "summary": "Wrap lies or altered context/facts around truths. \n\nInfluence campaigns pursue a variety of objectives with respect to target audiences, prominent among them: 1. undermine a narrative commonly referenced in the target audience; or 2. promote a narrative less common in the target audience, but preferred by the attacker. In both cases, the attacker is presented with a heavy lift. They must change the relative importance of various narratives in the interpretation of events, despite contrary tendencies. \n\nWhen messaging makes use of factual reporting to promote these adjustments in the narrative space, they are less likely to be dismissed out of hand; when messaging can juxtapose a (factual) truth about current affairs with the (abstract) truth explicated in these narratives, propagandists can undermine or promote them selectively. Context matters.",
+      "name": "Núcleo de verdad",
+      "summary": "Envolver mentiras o contexto/hechos alterados alrededor de verdades.\n\nLas campañas de influencia persiguen una variedad de objetivos con respecto a las audiencias objetivo, entre los más destacados: 1. socavar una narrativa comúnmente referenciada en la audiencia objetivo; o 2. promover una narrativa menos común en la audiencia objetivo, pero preferida por el atacante. En ambos casos, el atacante se enfrenta a una tarea difícil. Deben cambiar la importancia relativa de varias narrativas en la interpretación de eventos, a pesar de tendencias contrarias.\n\nCuando los mensajes hacen uso de reportajes factuales para promover estos ajustes en el espacio narrativo, es menos probable que sean rechazados de inmediato; cuando los mensajes pueden yuxtaponer una verdad (factual) sobre asuntos actuales con la verdad (abstracta) explicitada en estas narrativas, los propagandistas pueden socavar o promoverlas selectivamente. El contexto importa.",
       "counter_ids": [
         "C00009",
         "C00042",
@@ -1174,8 +1174,8 @@
     "T0043": {
       "disarm_id": "T0043",
       "tactic_id": "TA08",
-      "name": "Use SMS/ WhatsApp/ Chat apps",
-      "summary": "Direct messaging via encypted app is an increasing method of delivery. These messages are often automated and new delivery and storage methods make them anonymous, viral, and ephemeral. This is a diffucult space to monitor, but also a difficult space to build acclaim or notoriety.",
+      "name": "Usar SMS/WhatsApp/Aplicaciones de chat",
+      "summary": "La mensajería directa a través de aplicaciones encriptadas es un método de entrega cada vez más utilizado. Estos mensajes suelen ser automatizados y los nuevos métodos de entrega y almacenamiento los hacen anónimos, virales y efímeros. Este es un espacio difícil de monitorear, pero también un espacio difícil para construir aclamación o notoriedad.",
       "counter_ids": [
         "C00006",
         "C00012",
@@ -1192,8 +1192,8 @@
     "T0044": {
       "disarm_id": "T0044",
       "tactic_id": "TA08",
-      "name": "Seed distortions",
-      "summary": "Try a wide variety of messages in the early hours surrounding an incident or event, to give a misleading account or impression. ",
+      "name": "Sembrar distorsiones",
+      "summary": "Probar una amplia variedad de mensajes en las primeras horas después de un incidente o evento, para dar una cuenta o impresión engañosa.",
       "counter_ids": [
         "C00008",
         "C00009",
@@ -1231,8 +1231,8 @@
     "T0045": {
       "disarm_id": "T0045",
       "tactic_id": "TA08",
-      "name": "Use fake experts",
-      "summary": "Use the fake experts that were set up in T0009. Pseudo-experts are disposable assets that often appear once and then disappear. Give \"credility\" to misinformation. Take advantage of credential bias",
+      "name": "Usar expertos falsos",
+      "summary": "Usar los expertos falsos configurados en T0009. Los pseudoexpertos son activos desechables que a menudo aparecen una sola vez y luego desaparecen. Dar \"credibilidad\" a la desinformación. Aprovechar el sesgo de credencial.",
       "counter_ids": [
         "C00008",
         "C00011",
@@ -1272,8 +1272,8 @@
     "T0046": {
       "disarm_id": "T0046",
       "tactic_id": "TA08",
-      "name": "Search Engine Optimization",
-      "summary": "Manipulate content engagement metrics (ie: Reddit & Twitter) to influence/impact news search results (e.g. Google), also elevates RT & Sputnik headline into Google news alert emails. aka \"Black-hat SEO\" ",
+      "name": "Posicionamiento en motores de búsqueda",
+      "summary": "Manipular métricas de engagement de contenido (por ejemplo: Reddit y Twitter) para influir/impactar los resultados de búsqueda de noticias (por ejemplo: Google), también eleva titulares de RT y Sputnik en correos electrónicos de alertas de Google News. También conocido como \"SEO de sombrero negro\".",
       "counter_ids": [
         "C00012",
         "C00070",
@@ -1301,8 +1301,8 @@
     "T0047": {
       "disarm_id": "T0047",
       "tactic_id": "TA09",
-      "name": "Muzzle social media as a political force",
-      "summary": "Use political influence or the power of state to stop critical social media comments. Government requested/driven content take downs (see Google Transperancy reports.",
+      "name": "Silenciar las redes sociales como fuerza política",
+      "summary": "Usar influencia política o el poder del estado para detener comentarios críticos en redes sociales. Eliminación de contenido solicitada/impulsada por el gobierno (ver reportes de Transparencia de Google).",
       "counter_ids": [
         "C00012",
         "C00060",
@@ -1316,8 +1316,8 @@
     "T0048": {
       "disarm_id": "T0048",
       "tactic_id": "TA09",
-      "name": "Cow online opinion leaders",
-      "summary": "Intimidate, coerce, threaten critics/dissidents/journalists via trolling, doxing. ",
+      "name": "Intimidar líderes de opinión en línea",
+      "summary": "Intimidar, coaccionar, amenazar críticos/disidentes/periodistas a través de trolling, doxxing.",
       "counter_ids": [
         "C00009",
         "C00012",
@@ -1339,8 +1339,8 @@
     "T0049": {
       "disarm_id": "T0049",
       "tactic_id": "TA09",
-      "name": "Flooding",
-      "summary": "Flooding and/or mobbing social media channels feeds and/or hashtag with excessive volume of content to control/shape online conversations and/or drown out opposing points of view. Bots and/or patriotic trolls are effective tools to acheive this effect. ",
+      "name": "Inundación",
+      "summary": "Inundar y/o movilizar canales de redes sociales, feeds y/o hashtags con un volumen excesivo de contenido para controlar/dar forma a conversaciones en línea y/o ahogar puntos de vista opuestos. Los bots y/o trolls patrióticos son herramientas efectivas para lograr este efecto.",
       "counter_ids": [
         "C00012",
         "C00016",
@@ -1367,8 +1367,8 @@
     "T0050": {
       "disarm_id": "T0050",
       "tactic_id": "TA09",
-      "name": "Cheerleading domestic social media ops",
-      "summary": "Deploy state-coordinated social media commenters and astroturfers. Both internal/domestic and external social media influence operations.",
+      "name": "Aplaudir operaciones de redes sociales domésticas",
+      "summary": "Desplegar comentaristas de redes sociales coordinados por el estado y astroturf. Operaciones de influencia en redes sociales tanto internas/domésticas como externas.",
       "counter_ids": [
         "C00012",
         "C00044",
@@ -1386,8 +1386,8 @@
     "T0051": {
       "disarm_id": "T0051",
       "tactic_id": "TA09",
-      "name": "Fabricate social media comment",
-      "summary": "Use government-paid social media commenters, astroturfers, chat bots (programmed to reply to specific key words/hashtags) influence online conversations, product reviews, web-site comment forums.",
+      "name": "Fabricar comentarios en redes sociales",
+      "summary": "Usar comentaristas de redes sociales pagados por el gobierno, astroturf, chatbots (programados para responder a palabras clave/hashtags específicos) para influir en conversaciones en línea, reseñas de productos, foros de comentarios de sitios web.",
       "counter_ids": [
         "C00008",
         "C00011",
@@ -1411,8 +1411,8 @@
     "T0052": {
       "disarm_id": "T0052",
       "tactic_id": "TA09",
-      "name": "Tertiary sites amplify news",
-      "summary": "Create content/news/opinion web-sites to cross-post stories. Tertiary sites circulate and amplify narratives. Often these sites have no masthead, bylines or attribution. ",
+      "name": "Sitios terciarios amplifican noticias",
+      "summary": "Crear sitios web de contenido/noticias/opinión para republicar historias. Los sitios terciarios circulan y amplifican narrativas. A menudo estos sitios no tienen masthead, líneas de firma o atribución.",
       "counter_ids": [
         "C00009",
         "C00012",
@@ -1448,8 +1448,8 @@
     "T0053": {
       "disarm_id": "T0053",
       "tactic_id": "TA09",
-      "name": "Twitter trolls amplify and manipulate",
-      "summary": "Use trolls to amplify narratives and/or manipulate narratives. Fake profiles/sockpuppets operating to support individuals/narratives from the entire political spectrum (left/right binary). Operating with increased emphasis on promoting local content and promoting real Twitter users generating their own, often divisive political content, as it's easier to amplify existing content than create new/original content. Trolls operate where ever there's a socially divisive issue (issues that can/are be politicized).",
+      "name": "Trolls de Twitter amplifican y manipulan",
+      "summary": "Usar trolls para amplificar narrativas y/o manipularlas. Perfiles falsos/títeres de calcetín operando para apoyar individuos/narrativas del espectro político completo (binario izquierda/derecha). Operando con énfasis aumentado en promover contenido local y promover usuarios reales de Twitter generando su propio contenido político, a menudo divisivo, ya que es más fácil amplificar contenido existente que crear contenido nuevo/original. Los trolls operan dondequiera que haya un problema socialmente divisivo (problemas que pueden/son politizados).",
       "counter_ids": [
         "C00006",
         "C00009",
@@ -1507,8 +1507,8 @@
     "T0054": {
       "disarm_id": "T0054",
       "tactic_id": "TA09",
-      "name": "Twitter bots amplify",
-      "summary": "Use bots to amplify narratives above algorithm thresholds. Bots are automated/programmed profiles designed to amplify content (ie: automatically retweet or like) and give appearance it's more \"popular\" than it is. They can operate as a network, to function in a coordinated/orchestrated manner. In some cases (more so now) they are an inexpensive/disposable assets used for minimal deployment as bot detection tools improve and platforms are more responsive.",
+      "name": "Bots de Twitter amplifican",
+      "summary": "Usar bots para amplificar narrativas por encima de los umbrales del algoritmo. Los bots son perfiles automatizados/programados diseñados para amplificar contenido (es decir: retwittear o dar \"me gusta\" automáticamente) y dar la apariencia de que es más \"popular\" de lo que es. Pueden operar como una red, para funcionar de manera coordinada/orquestada. En algunos casos (más ahora) son activos baratos/desechables utilizados para despliegue mínimo a medida que mejoran las herramientas de detección de bots y las plataformas son más receptivas.",
       "counter_ids": [
         "C00006",
         "C00012",
@@ -1558,8 +1558,8 @@
     "T0055": {
       "disarm_id": "T0055",
       "tactic_id": "TA09",
-      "name": "Use hashtag",
-      "summary": "Use a dedicated hashtag for the incident - either create a campaign/incident specific hashtag, or take over an existing hashtag.",
+      "name": "Usar hashtag",
+      "summary": "Usar un hashtag dedicado para el incidente - ya sea crear una campaña/hashtag específico del incidente, o apoderarse de un hashtag existente.",
       "counter_ids": [
         "C00009",
         "C00012",
@@ -1594,8 +1594,8 @@
     "T0056": {
       "disarm_id": "T0056",
       "tactic_id": "TA09",
-      "name": "Dedicated channels disseminate information pollution",
-      "summary": "Output information pollution (e.g. articles on an unreported false story/event) through channels controlled by or related to the incident creator. ",
+      "name": "Canales dedicados diseminan contaminación de información",
+      "summary": "Producir contaminación de información (por ejemplo: artículos sobre una historia/evento falso no reportado) a través de canales controlados por o relacionados con el creador del incidente.",
       "counter_ids": [
         "C00008",
         "C00009",
@@ -1650,8 +1650,8 @@
     "T0057": {
       "disarm_id": "T0057",
       "tactic_id": "TA10",
-      "name": "Organise remote rallies and events",
-      "summary": "Coordinate and promote real-world events across media platforms, e.g. rallies, protests, gatherings in support of incident narratives. ",
+      "name": "Organizar mítines y eventos remotos",
+      "summary": "Coordinar y promover eventos del mundo real en múltiples plataformas de medios, por ejemplo: mítines, protestas, reuniones en apoyo de narrativas de incidentes.",
       "counter_ids": [
         "C00012",
         "C00016",
@@ -1682,8 +1682,8 @@
     "T0058": {
       "disarm_id": "T0058",
       "tactic_id": "TA11",
-      "name": "Legacy web content",
-      "summary": "Make incident content visible for a long time, e.g. by exploiting platform terms of service, or placing it where it's hard to remove or unlikely to be removed.",
+      "name": "Contenido web heredado",
+      "summary": "Hacer que el contenido del incidente sea visible durante mucho tiempo, por ejemplo: explotando términos de servicio de plataformas, o colocándolo donde sea difícil de eliminar o poco probable que sea eliminado.",
       "counter_ids": [
         "C00016",
         "C00070",
@@ -1699,8 +1699,8 @@
     "T0059": {
       "disarm_id": "T0059",
       "tactic_id": "TA11",
-      "name": "Play the long game",
-      "summary": "Play the long game can mean a couple of things:\n1. To plan messaging and allow it to grow organically without conducting your own amplification. This is methodical and slow and requires years for the message to take hold\n2. To develop a series of seemingly disconnected messaging narratives that eventually combine into a new narrative.",
+      "name": "Jugar a largo plazo",
+      "summary": "Jugar a largo plazo puede significar un par de cosas:\n1. Planificar mensajes y permitir que crezcan orgánicamente sin realizar su propia amplificación. Esto es metódico y lento y requiere años para que el mensaje se asiente.\n2. Desarrollar una serie de narrativas de mensajería aparentemente desconectadas que eventualmente se combinan en una nueva narrativa.",
       "counter_ids": [
         "C00042",
         "C00084"
@@ -1710,8 +1710,8 @@
     "T0060": {
       "disarm_id": "T0060",
       "tactic_id": "TA11",
-      "name": "Continue to amplify",
-      "summary": "continue narrative or message amplification after the main incident work has finished",
+      "name": "Continuar amplificando",
+      "summary": "Continuar la amplificación de narrativas o mensajes después de que el trabajo principal del incidente haya finalizado.",
       "counter_ids": [
         "C00046",
         "C00048",
@@ -1733,8 +1733,8 @@
     "T0061": {
       "disarm_id": "T0061",
       "tactic_id": "TA10",
-      "name": "Sell merchandising",
-      "summary": "Sell hats, t-shirts, flags and other branded content that's designed to be seen in the real world",
+      "name": "Vender merchandising",
+      "summary": "Vender sombreros, camisetas, banderas y otro contenido de marca diseñado para ser visto en el mundo real.",
       "counter_ids": [
         "C00012",
         "C00046",
@@ -1756,8 +1756,8 @@
     "T0062": {
       "disarm_id": "T0062",
       "tactic_id": "TA12",
-      "name": "Behaviour changes",
-      "summary": "Monitor and evaluate behaviour changes from misinformation incidents. ",
+      "name": "Cambios de comportamiento",
+      "summary": "Monitorear y evaluar cambios de comportamiento derivados de incidentes de desinformación.",
       "counter_ids": [
         "C00047",
         "C00090",
@@ -1770,8 +1770,8 @@
     "T0063": {
       "disarm_id": "T0063",
       "tactic_id": "TA12",
-      "name": "Message reach",
-      "summary": "Monitor and evaluate message reach in misinformation incidents. ",
+      "name": "Alcance del mensaje",
+      "summary": "Monitorear y evaluar el alcance del mensaje en incidentes de desinformación.",
       "counter_ids": [
         "C00047",
         "C00090",
@@ -1787,72 +1787,72 @@
     "T0064": {
       "disarm_id": "T0064",
       "tactic_id": "TA12",
-      "name": "Social media engagement",
-      "summary": "Monitor and evaluate social media engagement in misinformation incidents. ",
+      "name": "Engagement en redes sociales",
+      "summary": "Monitorear y evaluar el engagement en redes sociales en incidentes de desinformación.",
       "counter_ids": [],
       "incident_ids": []
     },
     "T0065": {
       "disarm_id": "T0065",
       "tactic_id": "TA04",
-      "name": "Use physical broadcast capabilities",
-      "summary": "Create or coopt broadcast capabilities (e.g. TV, radio etc). ",
+      "name": "Utilizar capacidades de transmisión física",
+      "summary": "Crear o cooptar capacidades de transmisión (p. ej. televisión, radio, etc.).",
       "counter_ids": [],
       "incident_ids": []
     },
     "T0066": {
       "disarm_id": "T0066",
       "tactic_id": "TA02",
-      "name": "Degrade adversary",
-      "summary": "Plan to degrade an adversary’s image or ability to act.  This could include preparation and use of harmful information about the adversary’s actions or reputation. ",
+      "name": "Degradar al adversario",
+      "summary": "Planificar para degradar la imagen o capacidad de actuación de un adversario. Esto podría incluir la preparación y uso de información dañina sobre las acciones o reputación del adversario.",
       "counter_ids": [],
       "incident_ids": []
     },
     "T0067": {
       "disarm_id": "T0067",
       "tactic_id": "TA02",
-      "name": "Plan to discredit credible sources",
-      "summary": "Plan to delegitimize the media landscape and degrade public trust in reporting, by discrediting credible sources.  This makes it easier to promote influence operation content.",
+      "name": "Planificar desacreditar fuentes creíbles",
+      "summary": "Planificar deslegitimizar el panorama mediático y degradar la confianza pública en la información, desacreditando fuentes creíbles. Esto facilita la promoción de contenido de operaciones de influencia.",
       "counter_ids": [],
       "incident_ids": []
     },
     "T0068": {
       "disarm_id": "T0068",
       "tactic_id": "TA02",
-      "name": "Respond to breaking news event",
-      "summary": "Media attention on a story or event is heightened during a breaking news event, where unclear facts and incomplete information increase speculation, rumors, and conspiracy theories, which are all vulnerable to manipulation. ",
+      "name": "Responder a evento de última hora",
+      "summary": "La atención mediática en una historia o evento aumenta durante un evento de última hora, donde los hechos poco claros e información incompleta incrementan la especulación, rumores y teorías de conspiración, todos vulnerables a manipulación.",
       "counter_ids": [],
       "incident_ids": []
     },
     "T0069": {
       "disarm_id": "T0069",
       "tactic_id": "TA02",
-      "name": "Respond to active crisis",
-      "summary": "Panic, rumors, and speculation are heightened during active crises (violent events, natural disasters, public health phenomena, etc); these are all vulnerable to manipulation.",
+      "name": "Responder a crisis activa",
+      "summary": "El pánico, rumores y especulación aumentan durante crisis activas (eventos violentos, desastres naturales, fenómenos de salud pública, etc.); todos son vulnerables a manipulación.",
       "counter_ids": [],
       "incident_ids": []
     },
     "T0070": {
       "disarm_id": "T0070",
       "tactic_id": "TA02",
-      "name": "Analyze existing communities",
-      "summary": "Assess influence operation potential of existing social media communities, where communities share interests, experiences, politics, or other characteristics that join online users together.  Assessment includes the potential use of social group trauma that could be targeted to gain support, using emotional appeals to shared grievances in a set population.",
+      "name": "Analizar comunidades existentes",
+      "summary": "Evaluar el potencial de operación de influencia en comunidades de redes sociales existentes, donde las comunidades comparten intereses, experiencias, política u otras características que unen usuarios en línea. La evaluación incluye el potencial de usar trauma de grupos sociales que podrían ser dirigidos para ganar apoyo, utilizando apelaciones emocionales a agravios compartidos en una población específica.",
       "counter_ids": [],
       "incident_ids": []
     },
     "T0071": {
       "disarm_id": "T0071",
       "tactic_id": "TA13",
-      "name": "Find echo chambers",
-      "summary": "Find or plan to create areas (social media groups, search term groups, hashtag groups etc) where individuals only engage with people they agree with.  ",
+      "name": "Encontrar cámaras de resonancia",
+      "summary": "Encontrar o planificar crear espacios (grupos de redes sociales, grupos de términos de búsqueda, grupos de hashtags, etc.) donde individuos solo se relacionan con personas con las que están de acuerdo.",
       "counter_ids": [],
       "incident_ids": []
     },
     "T0072": {
       "disarm_id": "T0072",
       "tactic_id": "TA13",
-      "name": "Segment audiences",
-      "summary": "Create audience segmentations by features of interest to the influence campaign, including political affiliation, geographic location, income, demographics, and psychographics. ",
+      "name": "Segmentar audiencias",
+      "summary": "Crear segmentaciones de audiencia por características de interés para la campaña de influencia, incluyendo afiliación política, ubicación geográfica, ingresos, datos demográficos y psicográficos.",
       "counter_ids": [],
       "incident_ids": []
     }
@@ -1961,981 +1961,981 @@
       "disarm_id": "C00006",
       "tactic_id": "TA01",
       "metatechnique_id": "M004",
-      "name": "Charge for social media",
-      "summary": "Include a paid-for privacy option, e.g. pay Facebook for an option of them not collecting your personal information.  There are examples of this not work, e.g. most people don’t use proton mail etc. "
+      "name": "Cobrar por redes sociales",
+      "summary": "Incluir una opción de privacidad pagada, por ejemplo, pagar a Facebook por la opción de que no recopilen tu información personal. Existen ejemplos de que esto no funciona, por ejemplo, la mayoría de las personas no usan correo electrónico cifrado, etc."
     },
     "C00008": {
       "disarm_id": "C00008",
       "tactic_id": "TA01",
       "metatechnique_id": "M006",
-      "name": "Create shared fact-checking database",
-      "summary": "Share fact-checking resources - tips, responses, countermessages, across respose groups.  Snopes is best-known example of fact-checking sites. "
+      "name": "Crear base de datos compartida de verificación de hechos",
+      "summary": "Compartir recursos de verificación de hechos: consejos, respuestas, contramanifestaciones, entre grupos de respuesta. Snopes es el ejemplo más conocido de sitios de verificación de hechos."
     },
     "C00009": {
       "disarm_id": "C00009",
       "tactic_id": "TA02",
       "metatechnique_id": "M001",
-      "name": "Educate high profile influencers on best practices",
-      "summary": "Find online influencers. Provide training in the mechanisms of disinformation, how to spot campaigns, and/or how to contribute to responses by countermessaging, boosting information sites etc. "
+      "name": "Capacitar a influenciadores de alto perfil en buenas prácticas",
+      "summary": "Identificar influenciadores en línea. Proporcionar capacitación en los mecanismos de desinformación, cómo identificar campañas y/o cómo contribuir a las respuestas mediante contramanifestaciones, amplificación de sitios de información, etc."
     },
     "C00010": {
       "disarm_id": "C00010",
       "tactic_id": "TA01",
       "metatechnique_id": "M004",
-      "name": "Enhanced privacy regulation for social media",
-      "summary": "Implement stronger privacy standards, to reduce the ability to microtarget community members. "
+      "name": "Regulación mejorada de privacidad para redes sociales",
+      "summary": "Implementar estándares de privacidad más sólidos para reducir la capacidad de microdireccionar a miembros de la comunidad."
     },
     "C00011": {
       "disarm_id": "C00011",
       "tactic_id": "TA02",
       "metatechnique_id": "M001",
-      "name": "Media literacy. Games to identify fake news",
-      "summary": "Create and use games to show people the mechanics of disinformation, and how to counter them. "
+      "name": "Alfabetización mediática. Juegos para identificar noticias falsas",
+      "summary": "Crear y utilizar juegos para mostrar a las personas los mecanismos de la desinformación y cómo contrarrestarlos."
     },
     "C00012": {
       "disarm_id": "C00012",
       "tactic_id": "TA01",
       "metatechnique_id": "M007",
-      "name": "Platform regulation",
-      "summary": "Empower existing regulators to govern social media. Also covers Destroy.  Includes: Include the role of social media in the regulatory framework for media - The European Union created significant new regulations in 2018; the U.S. approach will need to be carefully crafted to protect First Amendment principles, create needed transparency, ensure liability, and impose costs for noncompliance. Includes Create policy that makes social media police disinformation - example: German model: facebook forced to police content by law. Includes: Use fraud legislation to clean up social media"
+      "name": "Regulación de plataformas",
+      "summary": "Capacitar a los reguladores existentes para gobernar las redes sociales. También cubre Destruir. Incluye: Incluir el papel de las redes sociales en el marco regulatorio de medios - La Unión Europea creó regulaciones significativas en 2018; el enfoque estadounidense deberá elaborarse cuidadosamente para proteger los principios de la Primera Enmienda, crear transparencia necesaria, asegurar responsabilidad e imponer costos por incumplimiento. Incluye Crear política que obligue a las redes sociales a vigilar la desinformación - ejemplo: modelo alemán: Facebook obligado a vigilar contenido por ley. Incluye: Usar legislación de fraude para limpiar las redes sociales."
     },
     "C00013": {
       "disarm_id": "C00013",
       "tactic_id": "TA01",
       "metatechnique_id": "M006",
-      "name": "Rating framework for news",
-      "summary": "This is \"strategic innoculation\", raising the standards of what people expect in terms of evidence when consuming news. Example: journalistic ethics, or journalistic licensing body.  Include full transcripts, link source, add items. "
+      "name": "Marco de calificación para noticias",
+      "summary": "Esto es \"inoculación estratégica\", elevando los estándares de lo que las personas esperan en términos de evidencia al consumir noticias. Ejemplo: ética periodística o cuerpo regulador de licencias periodísticas. Incluir transcripciones completas, enlazar fuentes, añadir elementos."
     },
     "C00014": {
       "disarm_id": "C00014",
       "tactic_id": "TA06",
       "metatechnique_id": "M006",
-      "name": "Real-time updates to fact-checking database",
-      "summary": "Update fact-checking databases and resources in real time.  Especially import for time-limited events like natural disasters.  Existing examples at Buzzfeed and Fema."
+      "name": "Actualizaciones en tiempo real de base de datos de verificación de hechos",
+      "summary": "Actualizar bases de datos y recursos de verificación de hechos en tiempo real. Especialmente importante para eventos limitados en tiempo como desastres naturales. Ejemplos existentes en Buzzfeed y FEMA."
     },
     "C00016": {
       "disarm_id": "C00016",
       "tactic_id": "TA01",
       "metatechnique_id": "M005",
-      "name": "Censorship",
-      "summary": "Alter and/or block the publication/dissemination of information controlled by disinformation creators. Not recommended. "
+      "name": "Censura",
+      "summary": "Alterar y/o bloquear la publicación/difusión de información controlada por creadores de desinformación. No recomendado."
     },
     "C00017": {
       "disarm_id": "C00017",
       "tactic_id": "TA01",
       "metatechnique_id": "M010",
-      "name": "Repair broken social connections",
-      "summary": "For example, use a media campaign to promote in-group to out-group in person communication / activities . Technique could be in terms of forcing a reality-check by talking to people instead of reading about bogeymen. "
+      "name": "Reparar conexiones sociales rotas",
+      "summary": "Por ejemplo, utilizar una campaña mediática para promover comunicación presencial entre grupos internos y externos. La técnica podría enfocarse en forzar una verificación de la realidad hablando con personas en lugar de leer sobre enemigos imaginarios."
     },
     "C00019": {
       "disarm_id": "C00019",
       "tactic_id": "TA01",
       "metatechnique_id": "M003",
-      "name": "Reduce effect of division-enablers",
-      "summary": "includes Promote constructive communication by shaming division-enablers, and Promote playbooks to call out division-enablers"
+      "name": "Reducir efecto de facilitadores de división",
+      "summary": "Incluye Promover comunicación constructiva avergonzando a facilitadores de división, y Promover guías de juego para señalar a facilitadores de división."
     },
     "C00021": {
       "disarm_id": "C00021",
       "tactic_id": "TA01",
       "metatechnique_id": "M001",
-      "name": "Encourage in-person communication",
-      "summary": "Encourage offline communication"
+      "name": "Fomentar comunicación presencial",
+      "summary": "Fomentar comunicación fuera de línea."
     },
     "C00022": {
       "disarm_id": "C00022",
       "tactic_id": "TA01",
       "metatechnique_id": "M001",
-      "name": "Innoculate. Positive campaign to promote feeling of safety",
-      "summary": "Used to counter ability based and fear based attacks"
+      "name": "Inocular. Campaña positiva para promover sentimiento de seguridad",
+      "summary": "Utilizado para contrarrestar ataques basados en habilidad y miedo."
     },
     "C00024": {
       "disarm_id": "C00024",
       "tactic_id": "TA01",
       "metatechnique_id": "M001",
-      "name": "Promote healthy narratives",
-      "summary": "Includes promoting constructive narratives i.e. not polarising (e.g. pro-life, pro-choice, pro-USA).  Includes promoting identity neutral narratives. "
+      "name": "Promover narrativas saludables",
+      "summary": "Incluye promover narrativas constructivas, es decir, no polarizantes (por ejemplo, provida, proelección, pro-EE.UU.). Incluye promover narrativas neutrales en términos de identidad."
     },
     "C00026": {
       "disarm_id": "C00026",
       "tactic_id": "TA01",
       "metatechnique_id": "M010",
-      "name": "Shore up democracy based messages",
-      "summary": "Messages about e.g. peace, freedom. And make it sexy. Includes Deploy Information and Narrative-Building in Service of Statecraft: Promote a narrative of transparency, truthfulness, liberal values, and democracy. Implement a compelling narrative via effective mechanisms of communication. Continually reassess U.S. messages, mechanisms, and audiences over time. Counteract efforts to manipulate media, undermine free markets, and suppress political freedoms via public diplomacy"
+      "name": "Reforzar mensajes basados en democracia",
+      "summary": "Mensajes sobre, por ejemplo, paz, libertad. Y hacerlo atractivo. Incluye Desplegar Información y Construcción de Narrativas al Servicio de la Diplomacia Estatal: Promover una narrativa de transparencia, veracidad, valores liberales y democracia. Implementar una narrativa convincente mediante mecanismos efectivos de comunicación. Reevaluar continuamente mensajes, mecanismos y audiencias estadounidenses con el tiempo. Contrarrestar esfuerzos para manipular medios, socavar mercados libres y suprimir libertades políticas mediante diplomacia pública."
     },
     "C00027": {
       "disarm_id": "C00027",
       "tactic_id": "TA01",
       "metatechnique_id": "M001",
-      "name": "Create culture of civility",
-      "summary": "This is passive.  Includes promoting civility as an identity that people will defend. "
+      "name": "Crear cultura de civismo",
+      "summary": "Esto es pasivo. Incluye promover la civilidad como una identidad que las personas defenderán."
     },
     "C00028": {
       "disarm_id": "C00028",
       "tactic_id": "TA02",
       "metatechnique_id": "M011",
-      "name": "Make information provenance available",
-      "summary": "Blockchain audit log and validation with collaborative decryption to post comments.  Use blockchain technology to require collaborative validation before posts or comments are submitted.\n\nThis could be used to adjust upvote weight via a trust factor of people and organisations you trust, or other criteria."
+      "name": "Hacer disponible la procedencia de la información",
+      "summary": "Registro de auditoría blockchain y validación con descifrado colaborativo para publicar comentarios. Usar tecnología blockchain para requerir validación colaborativa antes de que se envíen publicaciones o comentarios. Esto podría usarse para ajustar el peso del voto positivo mediante un factor de confianza de personas y organizaciones en las que confías, u otros criterios."
     },
     "C00029": {
       "disarm_id": "C00029",
       "tactic_id": "TA02",
       "metatechnique_id": "M002",
-      "name": "Create fake website to issue counter narrative and counter narrative through physical merchandise",
-      "summary": "Create websites in disinformation voids - spaces where people are looking for known disinformation. "
+      "name": "Crear sitio web falso para emitir contra narrativa y contra narrativa a través de mercancía física",
+      "summary": "Crear sitios web en vacíos de desinformación - espacios donde las personas buscan desinformación conocida."
     },
     "C00030": {
       "disarm_id": "C00030",
       "tactic_id": "TA02",
       "metatechnique_id": "M002",
-      "name": "Develop a compelling counter narrative (truth based)",
-      "summary": "Example: Reality Team.\nhttps://www.isdglobal.org/wp-content/uploads/2016/06/Counter-narrative-Handbook_1.pdf "
+      "name": "Desarrollar una contra narrativa convincente (basada en hechos)",
+      "summary": "Ejemplo: Equipo de Realidad. https://www.isdglobal.org/wp-content/uploads/2016/06/Counter-narrative-Handbook_1.pdf"
     },
     "C00031": {
       "disarm_id": "C00031",
       "tactic_id": "TA02",
       "metatechnique_id": "M009",
-      "name": "Dilute the core narrative - create multiple permutations, target / amplify",
-      "summary": "Create competing narratives. Included \"Facilitate State Propaganda\" as diluting the narrative could have an effect on the pro-state narrative used by volunteers, or lower their involvement."
+      "name": "Diluir la narrativa central - crear múltiples permutaciones, dirigir/amplificar",
+      "summary": "Crear narrativas competidoras. Incluye \"Facilitar Propaganda Estatal\" ya que diluir la narrativa podría tener un efecto en la narrativa pro-estado utilizada por voluntarios, o reducir su participación."
     },
     "C00032": {
       "disarm_id": "C00032",
       "tactic_id": "TA06",
       "metatechnique_id": "M002",
-      "name": "Hijack content and link to truth- based info",
-      "summary": "Link to platform"
+      "name": "Secuestrar contenido y vincularlo a información basada en hechos",
+      "summary": "Vincular a plataforma"
     },
     "C00034": {
       "disarm_id": "C00034",
       "tactic_id": "TA03",
       "metatechnique_id": "M004",
-      "name": "Create more friction at account creation",
-      "summary": "Counters fake account"
+      "name": "Crear más fricción en la creación de cuentas",
+      "summary": "Contrarresta cuentas falsas"
     },
     "C00036": {
       "disarm_id": "C00036",
       "tactic_id": "TA03",
       "metatechnique_id": "M013",
-      "name": "Infiltrate the in-group to discredit leaders (divide)",
-      "summary": "All of these would be highly affected by infiltration or false-claims of infiltration."
+      "name": "Infiltrarse en el grupo interno para desacreditar líderes (dividir)",
+      "summary": "Todos estos se verían altamente afectados por infiltración o afirmaciones falsas de infiltración."
     },
     "C00040": {
       "disarm_id": "C00040",
       "tactic_id": "TA03",
       "metatechnique_id": "M011",
-      "name": "third party verification for people",
-      "summary": "counters fake experts"
+      "name": "Verificación de terceros para personas",
+      "summary": "Contrarresta expertos falsos"
     },
     "C00042": {
       "disarm_id": "C00042",
       "tactic_id": "TA03",
       "metatechnique_id": "M010",
-      "name": "Address truth contained in narratives",
-      "summary": "Focus on and boost truths in misinformation narratives, removing misinformation from them. "
+      "name": "Abordar la verdad contenida en narrativas",
+      "summary": "Enfocarse e impulsar verdades en narrativas de desinformación, eliminando la desinformación de ellas."
     },
     "C00044": {
       "disarm_id": "C00044",
       "tactic_id": "TA03",
       "metatechnique_id": "M004",
-      "name": "Keep people from posting to social media immediately",
-      "summary": "Platforms can introduce friction to slow down activities, force a small delay between posts, or replies to posts."
+      "name": "Impedir que las personas publiquen en redes sociales de inmediato",
+      "summary": "Las plataformas pueden introducir fricción para ralentizar actividades, forzar un pequeño retraso entre publicaciones o respuestas a publicaciones."
     },
     "C00046": {
       "disarm_id": "C00046",
       "tactic_id": "TA03",
       "metatechnique_id": "M013",
-      "name": "Marginalise and discredit extremist groups",
-      "summary": "Reduce the credibility of extremist groups posting misinformation."
+      "name": "Marginalizar y desacreditar grupos extremistas",
+      "summary": "Reducir la credibilidad de grupos extremistas que publican desinformación."
     },
     "C00047": {
       "disarm_id": "C00047",
       "tactic_id": "TA04",
       "metatechnique_id": "M008",
-      "name": "Honeypot with coordinated inauthentics",
-      "summary": "Flood disinformation spaces with obviously fake content, to dilute core misinformation narratives in them. "
+      "name": "Trampa con inauténticos coordinados",
+      "summary": "Inundar espacios de desinformación con contenido obviamente falso, para diluir narrativas de desinformación central en ellos."
     },
     "C00048": {
       "disarm_id": "C00048",
       "tactic_id": "TA03",
       "metatechnique_id": "M003",
-      "name": "Name and Shame Influencers",
-      "summary": "Think about the different levels: individual vs state-sponsored account.  Includes “call them out” and “name and shame”.  Note that USAID operations were at a different level. Identify social media accounts as sources of propaganda—“calling them out”— might be helpful to prevent the spread of their message to audiences that otherwise would consider them factual. USAID has been restructuring its programs to address predatory Chinese development projects and the information operations that support them. USAID’s new strategy has tailored programs to counter Chinese educational exchange programs and to support free and fair elections, youth empowerment, democratic governance, and free press. USAID’s Russia regional teams have also been compiling a strategy for Russia’s information operations. One strong point of USAID’s programming is a system of indicators and measurements for a country’s vulnerability to foreign influence and information operations.  Identify, monitor, and, if necessary, target externally-based nonattributed social media accounts.  Impact of and Dealing with Trolls - \"Chatham House has observed that trolls also sometimes function as decoys, as a way of “keeping the infantry busy” that “aims to wear down the other side” (Lough et al., 2014). Another type of troll involves “false accounts posing as authoritative information sources on social media”."
+      "name": "Señalar y avergonzar influenciadores",
+      "summary": "Considerar los diferentes niveles: cuentas individuales versus patrocinadas por el estado. Incluye 'señalar' y 'señalar y avergonzar'. Identificar cuentas de redes sociales como fuentes de propaganda —'señalarlas'— podría ser útil para prevenir la propagación de su mensaje a audiencias que de otro modo las considerarían veraces. USAID ha estado reestructurando sus programas para abordar proyectos de desarrollo chinos depredadores y las operaciones de información que los apoyan. La nueva estrategia de USAID ha adaptado programas para contrarrestar programas de intercambio educativo chino y para apoyar elecciones libres y justas, empoderamiento de jóvenes, gobernanza democrática y libertad de prensa. Los equipos regionales de USAID para Rusia también han compilado una estrategia para operaciones de información rusas. Un punto fuerte de la programación de USAID es un sistema de indicadores y mediciones para la vulnerabilidad de un país a la influencia externa y operaciones de información. Identificar, monitorear y, si es necesario, dirigirse a cuentas de redes sociales externas no atribuidas. Impacto y abordaje de troles - 'Chatham House ha observado que los troles a veces también funcionan como señuelos, como una forma de 'mantener ocupada la infantería' que 'tiene como objetivo desgastar al otro lado'. Otro tipo de trol implica 'cuentas falsas que se hacen pasar por fuentes de información autorizadas en redes sociales'."
     },
     "C00051": {
       "disarm_id": "C00051",
       "tactic_id": "TA03",
       "metatechnique_id": "M001",
-      "name": "Counter social engineering training",
-      "summary": "Includes anti-elicitation training, phishing prevention education. "
+      "name": "Capacitación en contramedidas de ingeniería social",
+      "summary": "Incluye capacitación antiextracción de información, educación en prevención de phishing."
     },
     "C00052": {
       "disarm_id": "C00052",
       "tactic_id": "TA04",
       "metatechnique_id": "M013",
-      "name": "Infiltrate platforms",
-      "summary": "Detect and degrade"
+      "name": "Infiltrarse en plataformas",
+      "summary": "Detectar y degradar"
     },
     "C00053": {
       "disarm_id": "C00053",
       "tactic_id": "TA04",
       "metatechnique_id": "M012",
-      "name": "Delete old accounts / Remove unused social media accounts",
-      "summary": "remove or remove access to (e.g. stop the ability to update) old social media accounts, to reduce the pool of accounts available for takeover, botnets etc. "
+      "name": "Eliminar cuentas antiguas / Remover cuentas de redes sociales no utilizadas",
+      "summary": "Remover o quitar acceso a cuentas de redes sociales antiguas, para reducir el grupo de cuentas disponibles para adquisición, botnets, etc."
     },
     "C00056": {
       "disarm_id": "C00056",
       "tactic_id": "TA04",
       "metatechnique_id": "M004",
-      "name": "Encourage people to leave social media",
-      "summary": "Encourage people to leave spcial media.  We don't expect this to work"
+      "name": "Alentar a las personas a abandonar redes sociales",
+      "summary": "Alentar a las personas a abandonar redes sociales. No esperamos que funcione."
     },
     "C00058": {
       "disarm_id": "C00058",
       "tactic_id": "TA03",
       "metatechnique_id": "M005",
-      "name": "Report crowdfunder as violator",
-      "summary": "counters crowdfunding. Includes ‘Expose online funding as fake”. "
+      "name": "Reportar recaudador de fondos como infractor",
+      "summary": "Contrarresta crowdfunding. Incluye 'Exponer financiamiento en línea como falso'."
     },
     "C00059": {
       "disarm_id": "C00059",
       "tactic_id": "TA04",
       "metatechnique_id": "M011",
-      "name": "Verification of project before posting fund requests",
-      "summary": "third-party verification of projects posting funding campaigns before those campaigns can be posted. "
+      "name": "Verificación de proyecto antes de publicar solicitudes de fondos",
+      "summary": "Verificación de terceros de proyectos que publican campañas de financiamiento antes de que esas campañas puedan ser publicadas."
     },
     "C00060": {
       "disarm_id": "C00060",
       "tactic_id": "TA02",
       "metatechnique_id": "M013",
-      "name": "Legal action against for-profit engagement factories",
-      "summary": "Take legal action against for-profit \"factories\" creating misinformation. "
+      "name": "Acción legal contra fábricas de engagement con fines de lucro",
+      "summary": "Tomar acciones legales contra 'fábricas' con fines de lucro que crean desinformación."
     },
     "C00062": {
       "disarm_id": "C00062",
       "tactic_id": "TA04",
       "metatechnique_id": "M010",
-      "name": "Free open library sources worldwide",
-      "summary": "Open-source libraries could be created that aid in some way for each technique. Even for Strategic Planning, some open-source frameworks such as DISARM can be created to counter the adversarial efforts."
+      "name": "Bibliotecas de fuentes abiertas gratuitas en todo el mundo",
+      "summary": "Se podrían crear bibliotecas de código abierto que ayuden de alguna forma para cada técnica. Incluso para Planificación Estratégica, se pueden crear algunos marcos de código abierto como DISARM para contrarrestar los esfuerzos adversarios."
     },
     "C00065": {
       "disarm_id": "C00065",
       "tactic_id": "TA05",
       "metatechnique_id": "M005",
-      "name": "Reduce political targeting",
-      "summary": "Includes “ban political micro targeting” and “ban political ads”"
+      "name": "Reducir segmentación política",
+      "summary": "Incluye 'prohibir micro-segmentación política' y 'prohibir anuncios políticos'."
     },
     "C00066": {
       "disarm_id": "C00066",
       "tactic_id": "TA05",
       "metatechnique_id": "M009",
-      "name": "Co-opt a hashtag and drown it out (hijack it back)",
-      "summary": "Flood a disinformation-related hashtag with other content. Examples include kPop stans flooding extremist hashtags with pop videos and images. "
+      "name": "Cooptar un hashtag e inundarlo (secuestrarlo de vuelta)",
+      "summary": "Inundar un hashtag relacionado con desinformación con otro contenido. Los ejemplos incluyen fans de K-pop inundando hashtags extremistas con videos e imágenes de pop."
     },
     "C00067": {
       "disarm_id": "C00067",
       "tactic_id": "TA03",
       "metatechnique_id": "M013",
-      "name": "Denigrate the recipient/ project (of online funding)",
-      "summary": "Reduce the credibility of groups behind misinformation-linked funding campaigns. "
+      "name": "Denigrar al receptor / proyecto (de financiamiento en línea)",
+      "summary": "Reducir la credibilidad de grupos detrás de campañas de financiamiento vinculadas a desinformación."
     },
     "C00070": {
       "disarm_id": "C00070",
       "tactic_id": "TA02",
       "metatechnique_id": "M005",
-      "name": "Block access to disinformation resources",
-      "summary": "Resources = accounts, channels etc.  Block access to platform. DDOS an attacker.\n\nTA02*: DDOS at the critical time (ie. midterm-2018 elections DDOS against troll farms) to deny an adversary's time-bound objective.\n\nT0008: A quick response to a proto-viral story will affect it's ability to spread and raise questions about their legitimacy.\n\nHashtag: Against the platform, by drowning the hashtag.\n\nT0046 - Search Engine Optimization: Sub-optimal website performance affect its search engine rank, which I interpret as \"blocking access to a platform\"."
+      "name": "Bloquear acceso a recursos de desinformación",
+      "summary": "Recursos = cuentas, canales, etc. Bloquear acceso a la plataforma. DDOS a un atacante.\n\nTA02*: DDOS en el momento crítico (ej. elecciones midterm-2018 DDOS contra granjas de trolls) para negar el objetivo limitado en tiempo de un adversario.\n\nT0008: Una respuesta rápida a una historia proto-viral afectará su capacidad de propagación y cuestionará su legitimidad.\n\nHashtag: Contra la plataforma, ahogando el hashtag.\n\nT0046 - Posicionamiento en motores de búsqueda: El rendimiento subóptimo del sitio web afecta su clasificación en motores de búsqueda, que interpreto como \"bloquear acceso a una plataforma\"."
     },
     "C00071": {
       "disarm_id": "C00071",
       "tactic_id": "TA06",
       "metatechnique_id": "M005",
-      "name": "Block source of pollution",
-      "summary": "Block websites, accounts, groups etc connected to misinformation and other information pollution. "
+      "name": "Bloquear fuente de contaminación",
+      "summary": "Bloquear sitios web, cuentas, grupos, etc. conectados con desinformación y otra contaminación informativa."
     },
     "C00072": {
       "disarm_id": "C00072",
       "tactic_id": "TA06",
       "metatechnique_id": "M005",
-      "name": "Remove non-relevant content from special interest groups - not recommended",
-      "summary": "Check special-interest groups (e.g. medical, knitting) for unrelated and misinformation-linked content, and remove it. "
+      "name": "Eliminar contenido no relevante de grupos de interés especial - no recomendado",
+      "summary": "Revisar grupos de interés especial (ej. médico, artesanía) para contenido no relacionado y vinculado a desinformación, y eliminarlo."
     },
     "C00073": {
       "disarm_id": "C00073",
       "tactic_id": "TA01",
       "metatechnique_id": "M001",
-      "name": "Inoculate populations through media literacy training",
-      "summary": "Use training to build the resilience of at-risk populations. Educate on how to handle info pollution. Push out targeted education on why it's pollution.  Build cultural resistance to false content, e.g. cultural resistance to bullshit.  Influence literacy training, to inoculate against “cult” recruiting.  Media literacy training: leverage librarians / library for media literacy training. Inoculate at language.   Strategic planning included as inoculating population has strategic value. Example is the \"Learn to Discern\" Program, funded by the Canadian government, operated in Ukraine from July 2015 to March 2016. The program trained 15,000 Ukrainians in ‘’safe, informed media consumption techniques,’’ including avoiding emotional manipulation, verifying sources, identifying hate speech, verifying expert credentials, detecting censorship, and debunking news, photos, and videos.”  Example: NGO Baltic Centre for Media Excellence, with some international funding, provides training to journalists in the Baltics and conducts media literacy training in the region. In addition to helping journalists avoid becoming “unwitting multipliers of misleading information,” the organization works with school teachers in the region to help them “decode media and incorporate media research into teaching.” concepts of media literacy to a mass audience that authorities launch a public information campaign that teaches the program will take time to develop and establish impact, recommends curriculum-based training.  Covers detect, deny, and degrade. "
+      "name": "Inmunizar poblaciones mediante capacitación en alfabetización mediática",
+      "summary": "Utilizar capacitación para construir la resiliencia de poblaciones vulnerables. Educar sobre cómo manejar la contaminación informativa. Difundir educación dirigida sobre por qué es contaminación. Construir resistencia cultural a contenido falso, ej. resistencia cultural a la desinformación. Influir en capacitación de alfabetización, para inmunizar contra reclutamiento de «cultos». Capacitación en alfabetización mediática: aprovechar bibliotecarios / bibliotecas para capacitación en alfabetización mediática. Inmunizar a nivel de lenguaje. Planificación estratégica incluida ya que inmunizar población tiene valor estratégico. El ejemplo es el Programa \"Learn to Discern\", financiado por el gobierno canadiense, operado en Ucrania de julio 2015 a marzo 2016. El programa capacitó a 15,000 ucranianos en ''técnicas seguras de consumo de medios informados'', incluyendo evitar manipulación emocional, verificar fuentes, identificar discurso de odio, verificar credenciales de expertos, detectar censura, y desacreditar noticias, fotos y videos. Ejemplo: ONG Baltic Centre for Media Excellence, con financiamiento internacional, proporciona capacitación a periodistas en los Bálticos y realiza capacitación en alfabetización mediática en la región. Además de ayudar a periodistas a evitar convertirse en \"multiplicadores involuntarios de información engañosa\", la organización trabaja con maestros de escuelas en la región para ayudarles a \"decodificar medios e incorporar investigación mediática en la enseñanza\". Conceptos de alfabetización mediática a una audiencia masiva que autoridades lanzan una campaña de información pública que enseña el programa tomará tiempo desarrollar e establecer impacto, recomienda capacitación basada en currículo. Cubre detectar, negar y degradar."
     },
     "C00074": {
       "disarm_id": "C00074",
       "tactic_id": "TA06",
       "metatechnique_id": "M012",
-      "name": "Identify and delete or rate limit identical content",
+      "name": "Identificar y eliminar o limitar tarifa contenido idéntico",
       "summary": "C00000"
     },
     "C00075": {
       "disarm_id": "C00075",
       "tactic_id": "TA06",
       "metatechnique_id": "M010",
-      "name": "normalise language",
-      "summary": "normalise the language around disinformation and misinformation; give people the words for artifact and effect types. "
+      "name": "Normalizar lenguaje",
+      "summary": "Normalizar el lenguaje alrededor de desinformación y información errónea; proporcionar a las personas las palabras para tipos de artefactos y efectos."
     },
     "C00076": {
       "disarm_id": "C00076",
       "tactic_id": "TA06",
       "metatechnique_id": "M005",
-      "name": "Prohibit images in political discourse channels",
-      "summary": "Make political discussion channels text-only. "
+      "name": "Prohibir imágenes en canales de discurso político",
+      "summary": "Hacer que los canales de discusión política sean solo de texto."
     },
     "C00077": {
       "disarm_id": "C00077",
       "tactic_id": "TA03",
       "metatechnique_id": "M013",
-      "name": "Active defence: run TA03 \"develop people” - not recommended",
-      "summary": "Develop networks of communities and influencers around counter-misinformation. Match them to misinformation creators "
+      "name": "Defensa activa: ejecutar TA03 \"desarrollar personas\" - no recomendado",
+      "summary": "Desarrollar redes de comunidades e influenciadores alrededor de contra-desinformación. Emparejarlos con creadores de desinformación."
     },
     "C00078": {
       "disarm_id": "C00078",
       "tactic_id": "TA06",
       "metatechnique_id": "M002",
-      "name": "Change Search Algorithms for Disinformation Content",
-      "summary": "Includes “change image search algorithms for hate groups and extremists” and “Change search algorithms for hate and extremist queries to show content sympathetic to opposite side”"
+      "name": "Cambiar algoritmos de búsqueda para contenido de desinformación",
+      "summary": "Incluye \"cambiar algoritmos de búsqueda de imágenes para grupos de odio y extremistas\" y \"Cambiar algoritmos de búsqueda para consultas de odio y extremismo para mostrar contenido simpático del lado opuesto\"."
     },
     "C00080": {
       "disarm_id": "C00080",
       "tactic_id": "TA06",
       "metatechnique_id": "M002",
-      "name": "Create competing narrative",
-      "summary": "Create counternarratives, or narratives that compete in the same spaces as misinformation narratives.  Could also be degrade"
+      "name": "Crear narrativa competidora",
+      "summary": "Crear contra-narrativas, o narrativas que compitan en los mismos espacios que narrativas de desinformación. También podría ser degradación."
     },
     "C00081": {
       "disarm_id": "C00081",
       "tactic_id": "TA06",
       "metatechnique_id": "M003",
-      "name": "Highlight flooding and noise, and explain motivations",
-      "summary": "Discredit by pointing out the \"noise\" and informing public that \"flooding\" is a technique of disinformation campaigns; point out intended objective of \"noise\""
+      "name": "Destacar inundación y ruido, y explicar motivaciones",
+      "summary": "Desacreditar señalando el \"ruido\" e informando al público que \"inundación\" es una técnica de campañas de desinformación; señalar el objetivo previsto del \"ruido\"."
     },
     "C00082": {
       "disarm_id": "C00082",
       "tactic_id": "TA06",
       "metatechnique_id": "M010",
-      "name": "Ground truthing as automated response to pollution",
-      "summary": "e.g. RealityTeam work that adds clear information to spaces with disinformation in.  Also inoculation."
+      "name": "Verificación de hechos como respuesta automatizada a contaminación",
+      "summary": "ej. Trabajo RealityTeam que agrega información clara a espacios con desinformación. También inmunización."
     },
     "C00084": {
       "disarm_id": "C00084",
       "tactic_id": "TA06",
       "metatechnique_id": "M002",
-      "name": "Modify disinformation narratives, and rebroadcast them",
-      "summary": "Includes “poison pill recasting of message” and “steal their truths”.  Many techniques involve promotion which could be manipulated. For example, online fundings or rallies could be advertised, through compromised or fake channels, as being associated with \"far-up/down/left/right\" actors. \"Long Game\" narratives could be subjected in a similar way with negative connotations.  Can also replay technique T0003. "
+      "name": "Modificar narrativas de desinformación, y retransmitirlas",
+      "summary": "Incluye \"recasting de píldora venenosa del mensaje\" y \"robar sus verdades\". Muchas técnicas implican promoción que podría manipularse. Por ejemplo, financiamientos en línea o mítines podrían ser anunciados, a través de canales comprometidos o falsos, como asociados con actores \"extrema-arriba/abajo/izquierda/derecha\". Narrativas de \"juego largo\" podrían someterse de manera similar con connotaciones negativas. También puede reproducir técnica T0003."
     },
     "C00085": {
       "disarm_id": "C00085",
       "tactic_id": "TA06",
       "metatechnique_id": "M003",
-      "name": "Mute content",
-      "summary": "Rate-limit disinformation content.  Reduces its effects, whilst not running afoul of censorship concerns.\n\nOnline archives of content (archives of websites, social media profiles, media, copies of published advertisements; or archives of comments attributed to bad actors, as well as anonymized metadata about users who interacted with them and analysis of the effect) is useful for intelligence analysis and public transparency, but will need similar muting or tagging/ shaming as associated with bad actors."
+      "name": "Silenciar contenido",
+      "summary": "Limitar la tarifa del contenido de desinformación. Reduce sus efectos, mientras no infringe preocupaciones de censura.\n\nArchivos en línea de contenido (archivos de sitios web, perfiles de redes sociales, medios, copias de anuncios publicados; o archivos de comentarios atribuidos a actores maliciosos, así como metadatos anonimizados sobre usuarios que interactuaron con ellos y análisis del efecto) es útil para análisis de inteligencia y transparencia pública, pero requerirá silenciamiento o etiquetado / avergonzamiento similar al asociado con actores maliciosos."
     },
     "C00086": {
       "disarm_id": "C00086",
       "tactic_id": "TA06",
       "metatechnique_id": "M002",
-      "name": "Distract from noise with addictive content",
-      "summary": "Example: Interject addictive links or contents into discussions of disinformation materials and measure a \"conversion rate\" of users who engage with your content and away from the social media channel's \"information bubble\" around the disinformation item. Use bots to amplify and upvote the addictive content. \n\nNote: This sounds eerlily like many Reddit communities where the most upvoted comments are all jokes, preventing serious discussion from being discovered by those who filter by upvotes."
+      "name": "Distraer del ruido con contenido adictivo",
+      "summary": "Ejemplo: Interponer enlaces o contenidos adictivos en discusiones de materiales de desinformación y medir una \"tasa de conversión\" de usuarios que se involucran con tu contenido y se alejan del \"globo de información\" de la plataforma de redes sociales alrededor del elemento de desinformación. Usar bots para amplificar y upvotear el contenido adictivo.\n\nNota: Esto suena inquietantemente similar a muchas comunidades de Reddit donde los comentarios más votados son todos bromas, impidiendo que la discusión seria sea descubierta por quienes filtran por votos."
     },
     "C00087": {
       "disarm_id": "C00087",
       "tactic_id": "TA06",
       "metatechnique_id": "M009",
-      "name": "Make more noise than the disinformation",
-      "summary": "Examples: kPop stans, #proudboys takeover by LGBT community"
+      "name": "Hacer más ruido que la desinformación",
+      "summary": "Ejemplos: fans de kPop, takeover de #proudboys por comunidad LGBT."
     },
     "C00090": {
       "disarm_id": "C00090",
       "tactic_id": "TA07",
       "metatechnique_id": "M002",
-      "name": "Fake engagement system",
-      "summary": "Create honeypots for misinformation creators to engage with, and reduce the resources they have available for misinformation campaigns. "
+      "name": "Sistema de compromiso falso",
+      "summary": "Crear trampas de miel para creadores de desinformación con las que interactuar, y reducir los recursos disponibles para campañas de desinformación."
     },
     "C00091": {
       "disarm_id": "C00091",
       "tactic_id": "TA06",
       "metatechnique_id": "M002",
-      "name": "Honeypot social community",
-      "summary": "Set honeypots, e.g. communities, in networks likely to be used for disinformation. "
+      "name": "Comunidad de trampa de miel",
+      "summary": "Establecer trampas de miel, ej. comunidades, en redes probables de ser utilizadas para desinformación."
     },
     "C00092": {
       "disarm_id": "C00092",
       "tactic_id": "TA02",
       "metatechnique_id": "M006",
-      "name": "Establish a truth teller reputation score for influencers",
-      "summary": "Includes \"Establish a truth teller reputation score for influencers” and “Reputation scores for social media users”.  Influencers are individuals or accounts with many followers. "
+      "name": "Establecer puntuación de reputación de portavoz de la verdad para influenciadores",
+      "summary": "Incluye \"Establecer puntuación de reputación de portavoz de la verdad para influenciadores\" y \"Puntuaciones de reputación para usuarios de redes sociales\". Los influenciadores son individuos o cuentas con muchos seguidores."
     },
     "C00093": {
       "disarm_id": "C00093",
       "tactic_id": "TA03",
       "metatechnique_id": "M001",
-      "name": "Influencer code of conduct",
-      "summary": "Establish tailored code of conduct for individuals with many followers.  Can be platform code of conduct; can also be community code, e.g. the Pro-Truth Pledge. "
+      "name": "Código de conducta para influenciadores",
+      "summary": "Establecer código de conducta personalizado para individuos con muchos seguidores. Puede ser código de conducta de plataforma; también puede ser código de comunidad, ej. el Pro-Truth Pledge."
     },
     "C00094": {
       "disarm_id": "C00094",
       "tactic_id": "TA06",
       "metatechnique_id": "M003",
-      "name": "Force full disclosure on corporate sponsor of research",
-      "summary": "Accountability move: make sure research is published with its funding sources. "
+      "name": "Obligar divulgación completa del patrocinador corporativo de investigación",
+      "summary": "Medida de rendición de cuentas: asegurar que la investigación se publique con sus fuentes de financiamiento."
     },
     "C00096": {
       "disarm_id": "C00096",
       "tactic_id": "TA01",
       "metatechnique_id": "M006",
-      "name": "Strengthen institutions that are always truth tellers",
-      "summary": "Increase credibility, visibility, and reach of positive influencers in the information space. "
+      "name": "Fortalecer instituciones que siempre dicen la verdad",
+      "summary": "Aumentar credibilidad, visibilidad y alcance de influenciadores positivos en el espacio informativo."
     },
     "C00097": {
       "disarm_id": "C00097",
       "tactic_id": "TA07",
       "metatechnique_id": "M004",
-      "name": "Require use of verified identities to contribute to poll or comment",
-      "summary": "Reduce poll flooding by online taking comments or poll entries from verified accounts. "
+      "name": "Requerir uso de identidades verificadas para contribuir a encuestas o comentarios",
+      "summary": "Reducir inundación de encuestas mediante comentarios o respuestas de cuentas verificadas."
     },
     "C00098": {
       "disarm_id": "C00098",
       "tactic_id": "TA07",
       "metatechnique_id": "M004",
-      "name": "Revocation of allowlisted or \"verified\" status",
-      "summary": "remove blue checkmarks etc from known misinformation accounts. "
+      "name": "Revocación de estado verificado o en lista blanca",
+      "summary": "Remover marcas azules, etc. de cuentas conocidas de desinformación."
     },
     "C00099": {
       "disarm_id": "C00099",
       "tactic_id": "TA07",
       "metatechnique_id": "M004",
-      "name": "Strengthen verification methods",
-      "summary": "Improve content veerification methods available to groups, individuals etc.  "
+      "name": "Fortalecer métodos de verificación",
+      "summary": "Mejorar métodos de verificación de contenido disponibles para grupos e individuos."
     },
     "C00100": {
       "disarm_id": "C00100",
       "tactic_id": "TA08",
       "metatechnique_id": "M002",
-      "name": "Hashtag jacking",
-      "summary": "Post large volumes of unrelated content on known misinformation hashtags "
+      "name": "Secuestro de hashtag",
+      "summary": "Publicar grandes volúmenes de contenido no relacionado en hashtags conocidos de desinformación."
     },
     "C00101": {
       "disarm_id": "C00101",
       "tactic_id": "TA07",
       "metatechnique_id": "M004",
-      "name": "Create friction by rate-limiting engagement",
-      "summary": "Create participant friction.  Includes Make repeat voting hard, and throttle number of forwards. "
+      "name": "Crear fricción mediante limitación de velocidad de participación",
+      "summary": "Crear fricción para participantes. Incluye dificultar votación repetida y limitar número de reenvíos."
     },
     "C00103": {
       "disarm_id": "C00103",
       "tactic_id": "TA07",
       "metatechnique_id": "M002",
-      "name": "Create a bot that engages / distract trolls",
-      "summary": "This is reactive, not active measure (honeypots are active).  It's a platform controlled measure."
+      "name": "Crear un bot que se involucre / distraiga a trolls",
+      "summary": "Esta es una medida reactiva, no activa (las trampas son activas). Es una medida controlada por plataforma."
     },
     "C00105": {
       "disarm_id": "C00105",
       "tactic_id": "TA07",
       "metatechnique_id": "M009",
-      "name": "Buy more advertising than misinformation creators",
-      "summary": "Shift influence and algorithms by posting more adverts into spaces than misinformation creators. "
+      "name": "Comprar más publicidad que creadores de desinformación",
+      "summary": "Cambiar influencia y algoritmos publicando más anuncios en espacios que los creadores de desinformación."
     },
     "C00106": {
       "disarm_id": "C00106",
       "tactic_id": "TA06",
       "metatechnique_id": "M002",
-      "name": "Click-bait centrist content",
-      "summary": "Create emotive centrist content that gets more clicks"
+      "name": "Contenido sensacionalista centrista",
+      "summary": "Crear contenido centrista emotivo que obtenga más clics."
     },
     "C00107": {
       "disarm_id": "C00107",
       "tactic_id": "TA06",
       "metatechnique_id": "M006",
-      "name": "Content moderation",
-      "summary": "includes social media content take-downs, e.g. facebook or Twitter content take-downs"
+      "name": "Moderación de contenido",
+      "summary": "Incluye eliminación de contenido en redes sociales, p. ej. eliminaciones de contenido en Facebook o Twitter."
     },
     "C00109": {
       "disarm_id": "C00109",
       "tactic_id": "TA09",
       "metatechnique_id": "M001",
-      "name": "Dampen Emotional Reaction",
-      "summary": "Reduce emotional responses to misinformation through calming messages, etc. "
+      "name": "Amortiguar reacción emocional",
+      "summary": "Reducir respuestas emocionales a la desinformación mediante mensajes calmantes, etc."
     },
     "C00111": {
       "disarm_id": "C00111",
       "tactic_id": "TA01",
       "metatechnique_id": "M001",
-      "name": "Reduce polarisation by connecting and presenting sympathetic renditions of opposite views",
-      "summary": "Example: The Commons Project (BuildUp) work. "
+      "name": "Reducir polarización conectando y presentando versiones empáticas de puntos de vista opuestos",
+      "summary": "Ejemplo: trabajo del Commons Project (BuildUp)."
     },
     "C00112": {
       "disarm_id": "C00112",
       "tactic_id": "TA08",
       "metatechnique_id": "M004",
-      "name": "\"Prove they are not an op!\"",
-      "summary": "Challenge misinformation creators to prove they're not an information operation.  "
+      "name": "\"¡Prueba que no eres una operación!\"",
+      "summary": "Desafiar a creadores de desinformación a probar que no son una operación de información."
     },
     "C00113": {
       "disarm_id": "C00113",
       "tactic_id": "TA08",
       "metatechnique_id": "M003",
-      "name": "Debunk and defuse a fake expert / credentials.",
-      "summary": "Debunk fake experts, their credentials, and potentially also their  audience quality"
+      "name": "Desacreditar y neutralizar expertos falsos / credenciales falsas",
+      "summary": "Desacreditar expertos falsos, sus credenciales, y potencialmente también la calidad de su audiencia."
     },
     "C00114": {
       "disarm_id": "C00114",
       "tactic_id": "TA08",
       "metatechnique_id": "M004",
-      "name": "Don't engage with payloads",
-      "summary": "Stop passing on misinformation"
+      "name": "No participar con contenidos",
+      "summary": "Dejar de propagar desinformación."
     },
     "C00115": {
       "disarm_id": "C00115",
       "tactic_id": "TA08",
       "metatechnique_id": "M003",
-      "name": "Expose actor and intentions",
-      "summary": "Debunk misinformation creators and posters. "
+      "name": "Exponer actor e intenciones",
+      "summary": "Desacreditar creadores y publicadores de desinformación."
     },
     "C00116": {
       "disarm_id": "C00116",
       "tactic_id": "TA08",
       "metatechnique_id": "M003",
-      "name": "Provide proof of involvement",
-      "summary": "Build and post information about groups etc's involvement in misinformation incidents. "
+      "name": "Proporcionar prueba de implicación",
+      "summary": "Construir y publicar información sobre la implicación de grupos en incidentes de desinformación."
     },
     "C00117": {
       "disarm_id": "C00117",
       "tactic_id": "TA08",
       "metatechnique_id": "M010",
-      "name": "Downgrade / de-amplify so message is seen by fewer people",
-      "summary": "Label promote counter to disinformation"
+      "name": "Degradar / desamplificar para que el mensaje sea visto por menos personas",
+      "summary": "Etiquetar promover contramensaje a desinformación."
     },
     "C00118": {
       "disarm_id": "C00118",
       "tactic_id": "TA08",
       "metatechnique_id": "M010",
-      "name": "Repurpose images with new text",
-      "summary": "Add countermessage text to iamges used in misinformation incidents. "
+      "name": "Reutilizar imágenes con texto nuevo",
+      "summary": "Añadir texto de contramensaje a imágenes utilizadas en incidentes de desinformación."
     },
     "C00119": {
       "disarm_id": "C00119",
       "tactic_id": "TA08",
       "metatechnique_id": "M010",
-      "name": "Engage payload and debunk.",
-      "summary": "debunk misinformation content.  Provide link to facts. "
+      "name": "Involucrarse en desmentir contenido.",
+      "summary": "Desmentir contenido con desinformación. Proporcionar enlace a datos verificados."
     },
     "C00120": {
       "disarm_id": "C00120",
       "tactic_id": "TA08",
       "metatechnique_id": "M007",
-      "name": "Open dialogue about design of platforms to produce different outcomes",
-      "summary": "Redesign platforms and algorithms to reduce the effectiveness of disinformation"
+      "name": "Diálogo abierto sobre el diseño de plataformas para producir resultados diferentes",
+      "summary": "Rediseñar plataformas y algoritmos para reducir la efectividad de la desinformación"
     },
     "C00121": {
       "disarm_id": "C00121",
       "tactic_id": "TA08",
       "metatechnique_id": "M001",
-      "name": "Tool transparency and literacy for channels people follow. ",
-      "summary": "Make algorithms in platforms explainable, and visible to people using those platforms. "
+      "name": "Transparencia en herramientas y alfabetización sobre los canales que las personas siguen",
+      "summary": "Hacer explícables y visibles los algoritmos de las plataformas para quienes las utilizan."
     },
     "C00122": {
       "disarm_id": "C00122",
       "tactic_id": "TA09",
       "metatechnique_id": "M004",
-      "name": "Content moderation",
-      "summary": "Beware: content moderation misused becomes censorship. "
+      "name": "Moderación de contenido",
+      "summary": "Advertencia: la moderación de contenido mal utilizada se convierte en censura."
     },
     "C00123": {
       "disarm_id": "C00123",
       "tactic_id": "TA09",
       "metatechnique_id": "M004",
-      "name": "Remove or rate limit botnets",
-      "summary": "reduce the visibility of known botnets online. "
+      "name": "Eliminar o limitar la visibilidad de redes de bots",
+      "summary": "Reducir la visibilidad en línea de redes de bots conocidas."
     },
     "C00124": {
       "disarm_id": "C00124",
       "tactic_id": "TA09",
       "metatechnique_id": "M004",
-      "name": "Don't feed the trolls",
-      "summary": "Don't engage with individuals relaying misinformation. "
+      "name": "No alimentar a los provocadores",
+      "summary": "No involucrarse con individuos que difunden desinformación."
     },
     "C00125": {
       "disarm_id": "C00125",
       "tactic_id": "TA09",
       "metatechnique_id": "M001",
-      "name": "Prebunking",
-      "summary": "Produce material in advance of misinformation incidents, by anticipating the narratives used in them, and debunking them. "
+      "name": "Desmentida anticipada",
+      "summary": "Producir material antes de incidentes de desinformación, anticipando las narrativas utilizadas y desmintiéndolas."
     },
     "C00126": {
       "disarm_id": "C00126",
       "tactic_id": "TA09",
       "metatechnique_id": "M003",
-      "name": "Social media amber alert",
-      "summary": "Create an alert system around disinformation and misinformation artifacts, narratives, and incidents "
+      "name": "Alerta de redes sociales",
+      "summary": "Crear un sistema de alertas alrededor de artefactos, narrativas e incidentes de desinformación."
     },
     "C00128": {
       "disarm_id": "C00128",
       "tactic_id": "TA09",
       "metatechnique_id": "M009",
-      "name": "Create friction by marking content with ridicule or other \"decelerants\"",
-      "summary": "Repost or comment on misinformation artifacts, using ridicule or other content to reduce the likelihood of reposting. "
+      "name": "Crear fricción marcando contenido con ridiculización u otros \"desacelerantes\"",
+      "summary": "Republicar o comentar contenido falso utilizando ridiculización u otro contenido para reducir la probabilidad de que se recomparta."
     },
     "C00129": {
       "disarm_id": "C00129",
       "tactic_id": "TA09",
       "metatechnique_id": "M014",
-      "name": "Use banking to cut off access ",
-      "summary": "fiscal sanctions; parallel to counter terrorism"
+      "name": "Usar el sistema bancario para cortar el acceso",
+      "summary": "Sanciones fiscales; paralelo a contrarrestrar el terrorismo"
     },
     "C00130": {
       "disarm_id": "C00130",
       "tactic_id": "TA05",
       "metatechnique_id": "M001",
-      "name": "Mentorship: elders, youth, credit. Learn vicariously.",
-      "summary": "Train local influencers in countering misinformation. "
+      "name": "Mentoría: ancianos, jóvenes, crédito. Aprendizaje vicario.",
+      "summary": "Capacitar influenciadores locales en contrarrestar la desinformación."
     },
     "C00131": {
       "disarm_id": "C00131",
       "tactic_id": "TA11",
       "metatechnique_id": "M005",
-      "name": "Seize and analyse botnet servers",
-      "summary": "Take botnet servers offline by seizing them. "
+      "name": "Incautar y analizar servidores de redes de bots",
+      "summary": "Desactivar servidores de redes de bots incautándolos."
     },
     "C00133": {
       "disarm_id": "C00133",
       "tactic_id": "TA03",
       "metatechnique_id": "M005",
-      "name": "Deplatform Account*",
-      "summary": "Note: Similar to Deplatform People but less generic. Perhaps both should be left."
+      "name": "Expulsar cuenta de plataforma",
+      "summary": "Nota: Similar a expulsar personas de plataforma pero menos genérico. Quizás ambos deberían mantenerse."
     },
     "C00135": {
       "disarm_id": "C00135",
       "tactic_id": "TA04",
       "metatechnique_id": "M005",
-      "name": "Deplatform message groups and/or message boards",
-      "summary": "Merged two rows here. "
+      "name": "Expulsar grupos de mensajes y/o foros de mensajería de plataformas",
+      "summary": "Se fusionaron dos filas aquí."
     },
     "C00136": {
       "disarm_id": "C00136",
       "tactic_id": "TA08",
       "metatechnique_id": "M010",
-      "name": "Microtarget most likely targets then send them countermessages",
-      "summary": "Find communities likely to be targetted by misinformation campaigns, and send them countermessages or pointers to information sources. "
+      "name": "Dirigirse con precisión a los objetivos más probables e enviarles contramensajes",
+      "summary": "Identificar comunidades propensas a ser atacadas por campañas de desinformación y enviarles contramensajes o referencias a fuentes de información."
     },
     "C00138": {
       "disarm_id": "C00138",
       "tactic_id": "TA11",
       "metatechnique_id": "M014",
-      "name": "Spam domestic actors with lawsuits",
-      "summary": "File multiple lawsuits against known misinformation creators and posters, to distract them from disinformation creation. "
+      "name": "Bombardear actores nacionales con demandas legales",
+      "summary": "Presentar múltiples demandas contra creadores y difusores conocidos de desinformación para distraerlos de la creación de desinformación."
     },
     "C00139": {
       "disarm_id": "C00139",
       "tactic_id": "TA11",
       "metatechnique_id": "M004",
-      "name": "Weaponise youtube content matrices",
-      "summary": "God knows what this is. Keeping temporarily in case we work it out. "
+      "name": "Militarizar matrices de contenido de YouTube",
+      "summary": "Nadie sabe bien qué es esto. Se mantiene temporalmente por si se logra aclarar."
     },
     "C00140": {
       "disarm_id": "C00140",
       "tactic_id": "TA12",
       "metatechnique_id": "M008",
-      "name": "\"Bomb\" link shorteners with lots of calls",
-      "summary": "Applies to most of the content used by exposure techniques except \"T0055 - Use hashtag”. Applies to analytics"
+      "name": "\"Bombardear\" acortadores de enlaces con muchas llamadas",
+      "summary": "Se aplica a la mayoría del contenido utilizado por técnicas de exposición excepto \"T0055 - Usar etiqueta de redes sociales\". Se aplica a análisis."
     },
     "C00142": {
       "disarm_id": "C00142",
       "tactic_id": "TA06",
       "metatechnique_id": "M004",
-      "name": "Platform adds warning label and decision point when sharing content",
-      "summary": "Includes “this has been disproved: do you want to forward it”. Includes “\"Hey this story is old\" popup when messaging with old URL” - this assumes that this technique is based on visits to an URL shortener or a captured news site that can publish a message of our choice.  Includes “mark clickbait visually”. "
+      "name": "La plataforma añade etiqueta de advertencia y punto de decisión al compartir contenido",
+      "summary": "Incluye \"esto ha sido desacreditado: ¿deseas compartirlo\". Incluye popup \"Hey, esta historia es antigua\" al mensajear con URL antigua - esto asume que la técnica se basa en visitas a un acortador de URLs o un sitio de noticias capturado que puede publicar un mensaje de nuestra elección. Incluye \"marcar clickbait visualmente\"."
     },
     "C00143": {
       "disarm_id": "C00143",
       "tactic_id": "TA11",
       "metatechnique_id": "M013",
-      "name": "(botnet) DMCA takedown requests to waste group time",
-      "summary": "Use copyright infringement claims to remove videos etc. "
+      "name": "Solicitudes de retirada DMCA (redes de bots) para desperdiciar tiempo del grupo",
+      "summary": "Usar denuncias por infracción de derechos de autor para eliminar videos, etc."
     },
     "C00144": {
       "disarm_id": "C00144",
       "tactic_id": "TA02",
       "metatechnique_id": "M014",
-      "name": "Buy out troll farm employees / offer them jobs",
-      "summary": "Degrade the infrastructure. Could e.g. pay to not act for 30 days.  Not recommended"
+      "name": "Comprar empleados de granjas de trolls / ofrecerles empleo",
+      "summary": "Degradar la infraestructura. Por ejemplo, pagar para no actuar durante 30 días. No recomendado"
     },
     "C00147": {
       "disarm_id": "C00147",
       "tactic_id": "TA09",
       "metatechnique_id": "M004",
-      "name": "Make amplification of social media posts expire (e.g. can't like/ retweet after n days)",
-      "summary": "Stop new community activity (likes, comments) on old social media posts.  "
+      "name": "Hacer que la amplificación de publicaciones en redes sociales expire (p. ej., no se puede dar like/retwittear después de n días)",
+      "summary": "Detener la nueva actividad comunitaria (likes, comentarios) en publicaciones antiguas de redes sociales."
     },
     "C00148": {
       "disarm_id": "C00148",
       "tactic_id": "TA12",
       "metatechnique_id": "M008",
-      "name": "Add random links to network graphs",
-      "summary": "If creators are using network analysis to determine how to attack networks, then adding random extra links to those networks might throw that analysis out enough to change attack outcomes. Unsure which DISARM techniques."
+      "name": "Agregar enlaces aleatorios a gráficos de red",
+      "summary": "Si los creadores están utilizando análisis de red para determinar cómo atacar redes, agregar enlaces adicionales aleatorios a esas redes podría invalidar ese análisis lo suficiente como para cambiar los resultados del ataque. Técnicas DISARM inciertas."
     },
     "C00149": {
       "disarm_id": "C00149",
       "tactic_id": "TA12",
       "metatechnique_id": "M008",
-      "name": "Poison the monitoring & evaluation data",
-      "summary": "Includes Pollute the AB-testing data feeds: Polluting A/B testing requires knowledge of MOEs and MOPs. A/B testing must be caught early when there is relatively little data available so infiltration of TAs and understanding of how content is migrated from testing to larger audiences is fundamental."
+      "name": "Envenenar los datos de monitoreo y evaluación",
+      "summary": "Incluye Contaminar los flujos de datos de pruebas A/B: La contaminación de pruebas A/B requiere conocimiento de MOEs y MOPs. Las pruebas A/B deben detectarse temprano cuando hay relativamente pocos datos disponibles, por lo que la infiltración de TAs y la comprensión de cómo se migra el contenido de pruebas a audiencias más grandes es fundamental."
     },
     "C00153": {
       "disarm_id": "C00153",
       "tactic_id": "TA01",
       "metatechnique_id": "M013",
-      "name": "Take pre-emptive action against actors' infrastructure",
-      "summary": "Align offensive cyber action with information operations and counter disinformation approaches, where appropriate."
+      "name": "Tomar medidas preventivas contra la infraestructura de actores",
+      "summary": "Alinear la acción cibernética ofensiva con operaciones de información y enfoques de contradesinformación, cuando sea apropiado."
     },
     "C00154": {
       "disarm_id": "C00154",
       "tactic_id": "TA08",
       "metatechnique_id": "M005",
-      "name": "Ask media not to report false information",
-      "summary": "Train media to spot and respond to misinformation, and ask them not to post or transmit misinformation they've found. "
+      "name": "Pedir a los medios que no reporten información falsa",
+      "summary": "Capacitar a los medios para identificar y responder a la desinformación, y pedirles que no publiquen ni transmitan desinformación que hayan encontrado."
     },
     "C00155": {
       "disarm_id": "C00155",
       "tactic_id": "TA03",
       "metatechnique_id": "M005",
-      "name": "Ban incident actors from funding sites",
-      "summary": "Ban misinformation creators and posters from funding sites"
+      "name": "Prohibir actores de incidentes en sitios de financiamiento",
+      "summary": "Prohibir a creadores y publicadores de desinformación el acceso a sitios de financiamiento."
     },
     "C00156": {
       "disarm_id": "C00156",
       "tactic_id": "TA02",
       "metatechnique_id": "M010",
-      "name": "Better tell your country or organization story",
-      "summary": "Civil engagement activities conducted on the part of EFP forces. In Latvia, for example, U.S. soldiers have reportedly conducted numerous civil engagements with the local populations. In one example, soldiers cut firewood for local Russian-speaking Latvians. Locals were reportedly overheard saying, “A Russian soldier wouldn’t do that.” NATO should likewise provide support and training, where needed, to local public affairs and other communication personnel. Local government and military public affairs personnel can play their part in creating and disseminating entertaining and sharable content that supports the EFP mission. "
+      "name": "Contar mejor la historia de tu país u organización",
+      "summary": "Actividades de compromiso civil realizadas por fuerzas de presencia reforzada extranjera. En Letonia, por ejemplo, soldados estadounidenses han realizado numerosos compromisos civiles con las poblaciones locales. En un ejemplo, soldados cortaron leña para letones de habla rusa local. Se reportó que los locales dijeron, «Un soldado ruso no haría eso». La OTAN debe proporcionar apoyo y capacitación, cuando sea necesario, al personal de asuntos públicos locales y de comunicación. El personal de asuntos públicos locales y militares puede jugar su parte en la creación y difusión de contenido entretenido y compartible que apoye la misión."
     },
     "C00159": {
       "disarm_id": "C00159",
       "tactic_id": "TA01",
       "metatechnique_id": "M007",
-      "name": "Have a disinformation response plan",
-      "summary": "e.g. Create a campaign plan and toolkit for competition short of armed conflict (this used to be called “the grey zone”). The campaign plan should account for own vulnerabilities and strengths, and not over-rely on any one tool of statecraft or line of effort.  It will identify and employ a broad spectrum of national power to deter, compete, and counter (where necessary) other countries’ approaches, and will include understanding of own capabilities, capabilities of disinformation creators, and international standards of conduct to compete in, shrink the size, and ultimately deter use of competition short of armed conflict."
+      "name": "Tener un plan de respuesta a la desinformación",
+      "summary": "P. ej., Crear un plan de campaña y kit de herramientas para la competencia por debajo del conflicto armado (esto solía llamarse «la zona gris»). El plan de campaña debe considerar las propias vulnerabilidades y fortalezas, y no depender excesivamente de una sola herramienta de poder estatal o línea de esfuerzo. Identificará y empleará un amplio espectro del poder nacional para disuadir, competir y contrarrestar (cuando sea necesario) los enfoques de otros países, e incluirá una comprensión de las propias capacidades, las capacidades de creadores de desinformación y los estándares internacionales de conducta para competir, reducir el tamaño y, en última instancia, disuadir el uso de la competencia por debajo del conflicto armado."
     },
     "C00160": {
       "disarm_id": "C00160",
       "tactic_id": "TA03",
       "metatechnique_id": "M001",
-      "name": "find and train influencers",
-      "summary": "Identify key influencers (e.g. use network analysis), then reach out to identified users and offer support, through either training or resources."
+      "name": "Encontrar y capacitar a influyentes",
+      "summary": "Identificar influyentes clave (p. ej., usar análisis de red), luego comunicarse con usuarios identificados y ofrecer apoyo, mediante capacitación o recursos."
     },
     "C00161": {
       "disarm_id": "C00161",
       "tactic_id": "TA01",
       "metatechnique_id": "M007",
-      "name": "Coalition Building with stakeholders and Third-Party Inducements",
-      "summary": "Advance coalitions across borders and sectors, spanning public and private, as well as foreign and domestic, divides. Improve mechanisms to collaborate, share information, and develop coordinated approaches with the private sector at home and allies and partners abroad."
+      "name": "Construcción de coaliciones con partes interesadas e incentivos de terceros",
+      "summary": "Avanzar en coaliciones transfronterizas y sectoriales, abarcando lo público y privado, así como lo extranjero y lo doméstico. Mejorar mecanismos para colaborar, compartir información y desarrollar enfoques coordinados con el sector privado en casa y con aliados y socios en el extranjero."
     },
     "C00162": {
       "disarm_id": "C00162",
       "tactic_id": "TA04",
       "metatechnique_id": "M013",
-      "name": "Unravel/target the Potemkin villages",
-      "summary": "Kremlin’s narrative spin extends through constellations of “civil society” organizations, political parties, churches, and other actors. Moscow leverages think tanks, human rights groups, election observers, Eurasianist integration groups, and orthodox groups. A collection of Russian civil society organizations, such as the Federal Agency for the Commonwealth of Independent States Affairs, Compatriots Living Abroad, and International Humanitarian Cooperation, together receive at least US$100 million per year, in addition to government-organized nongovernmental organizations (NGOs), at least 150 of which are funded by Russian presidential grants totaling US$70 million per year."
+      "name": "Desmantelar/apuntar los teatros de operaciones ficticios",
+      "summary": "La narrativa del Kremlin se extiende a través de constelaciones de organizaciones de la «sociedad civil», partidos políticos, iglesias y otros actores. Moscú aprovecha tanques de pensamiento, grupos de derechos humanos, observadores electorales, grupos de integración euroasiática y grupos ortodoxos. Una colección de organizaciones de la sociedad civil rusa, como la Agencia Federal para Asuntos de la Comunidad de Estados Independientes, Compatriotas que Viven en el Extranjero y Cooperación Humanitaria Internacional, reciben en conjunto al menos USD 100 millones por año, además de organizaciones no gubernamentales organizadas por el gobierno (ONG), al menos 150 de las cuales son financiadas por subvenciones presidenciales rusas que totalizan USD 70 millones por año."
     },
     "C00164": {
       "disarm_id": "C00164",
       "tactic_id": "TA02",
       "metatechnique_id": "M013",
-      "name": "compatriot policy",
-      "summary": "protect the interests of this population and, more importantly, influence the population to support pro-Russia causes and effectively influence the politics of its neighbors"
+      "name": "Política de compatriotas",
+      "summary": "Proteger los intereses de esta población e influir más importantemente en la población para que apoye causas pro-Rusia e influir efectivamente en la política de sus vecinos."
     },
     "C00165": {
       "disarm_id": "C00165",
       "tactic_id": "TA06",
       "metatechnique_id": "M004",
-      "name": "Ensure integrity of official documents",
-      "summary": "e.g. for leaked legal documents, use court motions to limit future discovery actions"
+      "name": "Asegurar la integridad de documentos oficiales",
+      "summary": "P. ej., para documentos legales filtrados, usar moción judicial para limitar futuras acciones de descubrimiento."
     },
     "C00169": {
       "disarm_id": "C00169",
       "tactic_id": "TA02",
       "metatechnique_id": "M010",
-      "name": "develop a creative content hub",
-      "summary": "international donors will donate to a basket fund that will pay a committee of local experts who will, in turn, manage and distribute the money to Russian-language producers and broadcasters that pitch various projects."
+      "name": "Desarrollar un centro de contenido creativo",
+      "summary": "Los donantes internacionales donarán a un fondo común que pagará a un comité de expertos locales que, a su vez, administrarán y distribuirán el dinero a productores y radiodifusores de habla rusa que presenten varios proyectos."
     },
     "C00170": {
       "disarm_id": "C00170",
       "tactic_id": "TA01",
       "metatechnique_id": "M007",
-      "name": "elevate information as a critical domain of statecraft",
-      "summary": "Shift from reactive to proactive response, with priority on sharing relevant information with the public and mobilizing private-sector engagement. Recent advances in data-driven technologies have elevated information as a source of power to influence the political and economic environment, to foster economic growth, to enable a decision-making advantage over competitors, and to communicate securely and quickly."
+      "name": "Elevar la información como dominio crítico de la diplomacia",
+      "summary": "Cambiar de respuesta reactiva a proactiva, con prioridad en compartir información relevante con el público e impulsar la participación del sector privado. Los avances recientes en tecnologías basadas en datos han elevado la información como fuente de poder para influir en el ambiente político y económico, para fomentar el crecimiento económico, para habilitar una ventaja en la toma de decisiones sobre competidores y para comunicarse de manera segura y rápida."
     },
     "C00172": {
       "disarm_id": "C00172",
       "tactic_id": "TA04",
       "metatechnique_id": "M005",
-      "name": "social media source removal",
-      "summary": "Removing accounts, pages, groups, e.g. facebook page removal"
+      "name": "Eliminación de fuentes en redes sociales",
+      "summary": "Eliminar cuentas, páginas, grupos, p. ej. eliminación de página de Facebook."
     },
     "C00174": {
       "disarm_id": "C00174",
       "tactic_id": "TA01",
       "metatechnique_id": "M007",
-      "name": "Create a healthier news environment",
-      "summary": "Free and fair press: create bipartisan, patriotic commitment to press freedom.  Note difference between news and editorialising.  Build alternative news sources: create alternative local-language news sources to counter local-language propaganda outlets. Delegitimize the 24 hour news cycle.  includes Provide an alternative to disinformation content by expanding and improving local content: Develop content that can displace geopolitically-motivated narratives in the entire media environment, both new and old media alike."
+      "name": "Crear un ambiente de noticias más saludable",
+      "summary": "Prensa libre y justa: crear un compromiso bipartidista y patriótico con la libertad de prensa. Nota la diferencia entre noticias y editoriales. Construir fuentes de noticias alternativas: crear fuentes de noticias locales en idiomas alternativos para contrarrestar medios de propaganda en idiomas locales. Deslegitimar el ciclo de noticias de 24 horas. Incluye Proporcionar una alternativa al contenido de desinformación mediante la expansión y mejora del contenido local: Desarrollar contenido que pueda desplazar narrativas geopolíticamente motivadas en todo el ambiente mediático, tanto en medios nuevos como antiguos."
     },
     "C00176": {
       "disarm_id": "C00176",
       "tactic_id": "TA01",
       "metatechnique_id": "M007",
-      "name": "Improve Coordination amongst stakeholders: public and private",
-      "summary": "Coordinated disinformation challenges are increasingly multidisciplinary, there are few organizations within the national security structures that are equipped with the broad-spectrum capability to effectively counter large-scale conflict short of war tactics in real-time. Institutional hurdles currently impede diverse subject matter experts, hailing from outside of the traditional national security and foreign policy disciplines (e.g., physical science, engineering, media, legal, and economics fields), from contributing to the direct development of national security countermeasures to emerging conflict short of war threat vectors. A Cognitive Security Action Group (CSAG), akin to the Counterterrorism Security Group (CSG), could drive interagency alignment across equivalents of DHS, DoS, DoD, Intelligence Community, and other implementing agencies, in areas including strategic narrative, and the nexus of cyber and information operations. "
+      "name": "Mejorar la coordinación entre partes interesadas: públicas y privadas",
+      "summary": "Los desafíos de desinformación coordinada son cada vez más multidisciplinarios, hay pocas organizaciones dentro de las estructuras de seguridad nacional que estén equipadas con la amplia capacidad para contrarrestar eficazmente tácticas de conflicto a gran escala por debajo de la guerra en tiempo real. Los obstáculos institucionales actualmente impiden que diversos expertos en la materia, provenientes de disciplinas tradicionales fuera de la seguridad nacional y política exterior (p. ej., ciencia física, ingeniería, medios, legal y campos de economía), contribuyan al desarrollo directo de contramedidas de seguridad nacional contra vectores de amenaza de conflicto emergentes por debajo de la guerra. Un Grupo de Acción de Seguridad Cognitiva (CSAG), similar al Grupo de Seguridad Antiterrorismo (CSG), podría impulsar la alineación entre organismos en equivalentes de DHS, DoS, DoD, Comunidad de Inteligencia y otras agencias implementadoras, en áreas que incluyen narrativa estratégica y el nexo de operaciones cibernéticas e informativas."
     },
     "C00178": {
       "disarm_id": "C00178",
       "tactic_id": "TA05",
       "metatechnique_id": "M009",
-      "name": "Fill information voids with non-disinformation content",
-      "summary": "1) Pollute the data voids with wholesome content (Kittens! Babyshark!). 2) fill data voids with relevant information, e.g. increase Russian-language programming in areas subject to Russian disinformation.  Examples include using Current Time videos (viewed 40 million times online) to draw viewers away from Russian TV programming in RT and Sputnik. POtential content for this includes conventional entertainment programming (source: The conomist, “America’s Answer to Russian Propaganda TV,” 2017)."
+      "name": "Llenar vacíos de información con contenido no desinformativo",
+      "summary": "1) Contaminar los vacíos de datos con contenido saludable (¡Gatitos! ¡Babyshark!). 2) Llenar vacíos de datos con información relevante, p. ej., aumentar la programación en ruso en áreas sujetas a desinformación rusa. Los ejemplos incluyen usar videos de Current Time (vistos 40 millones de veces en línea) para atraer espectadores lejos de la programación de TV rusa en RT y Sputnik. El contenido potencial para esto incluye programación de entretenimiento convencional (fuente: The Economist, «America's Answer to Russian Propaganda TV», 2017)."
     },
     "C00182": {
       "disarm_id": "C00182",
       "tactic_id": "TA09",
       "metatechnique_id": "M005",
-      "name": "Redirection / malware detection/ remediation",
-      "summary": "Detect redirction or malware, then quarantine or delete.  Example: (2015) Trustwave reported that a Bedep Trojan malware kit had begun infecting machines and forcing them to browse certain sites, artificially inflating traffic to a set of pro-Russia"
+      "name": "Redirección / detección y remediación de malware",
+      "summary": "Detectar redirecciones o malware, luego poner en cuarentena o eliminar. Ejemplo: (2015) Trustwave reportó que un kit de troyano Bedep había comenzado a infectar máquinas y obligarlas a navegar hacia ciertos sitios, inflando artificialmente el tráfico hacia un conjunto de sitios pro-Rusia"
     },
     "C00184": {
       "disarm_id": "C00184",
       "tactic_id": "TA08",
       "metatechnique_id": "M003",
-      "name": "Media exposure",
-      "summary": "highlight misinformation activities and actors in media"
+      "name": "Exposición mediática",
+      "summary": "Destacar actividades de desinformación y actores en medios de comunicación"
     },
     "C00188": {
       "disarm_id": "C00188",
       "tactic_id": "TA08",
       "metatechnique_id": "M001",
-      "name": "Newsroom/Journalist training to counter influence moves",
-      "summary": "Includes SEO influence.  August 2014, Russian news agency Rossiya Segodnya commissioned a poll in France with poorly worded questions and a statistically insignificant subsample that RT used to back a story titled “15% of French people back ISIS [Islamic State of Iraq and Syria] militants, poll finds.” The story and summary infographic circulated on the internet, initially appearing primarily on French sites. After a week, the generally respectable digital U.S. news outlet Vox ran the story, now titled “One in Six French People Say They Support ISIS.” Although this effect has now worn off or been overwritten, for a time—despite a later story from The Washington Post debunking the claim—typing “ISIS France” into Google resulted in an autosuggestion of “ISIS France support” (Borthwick, 2015). Includes promotion of a “higher standard of journalism”: journalism training “would be helpful, especially for the online community.  Includes Strengthen local media: Improve effectiveness of local media outlets. Using eastern Latvia media outlets as an example, one expert noted that the media outlets are “very weak,” are often politically affiliated, or have “little local oligarchs that control them.”"
+      "name": "Capacitación de salas de redacción y periodistas para contrarrestar operaciones de influencia",
+      "summary": "Incluye influencia en SEO. Agosto 2014, la agencia de noticias rusa Rossiya Segodnya encargó una encuesta en Francia con preguntas mal formuladas y una muestra estadísticamente insignificante que RT utilizó para respaldar una historia titulada \"15% de los franceses apoyan militantes del ISIS [Estado Islámico de Irak y Siria]\". La historia e infografía circularon en internet, apareciendo inicialmente principalmente en sitios franceses. Una semana después, el medio de noticias digital estadounidense generalmente respetable Vox publicó la historia, ahora titulada \"Uno de cada seis franceses dice que apoyan al ISIS\". Aunque este efecto se ha disipado, durante un tiempo, a pesar de una historia posterior de The Washington Post desacreditando la afirmación, escribir \"ISIS France\" en Google resultaba en la sugerencia automática \"ISIS France support\". Incluye promoción de \"estándares superiores de periodismo\": capacitación periodística que \"sería útil, especialmente para la comunidad en línea\". Incluye fortalecer medios locales: mejorar la efectividad de medios locales. Usando como ejemplo medios de Letonia oriental, un experto señaló que los medios son \"muy débiles\", frecuentemente están afiliados políticamente o tienen \"pequeños oligarcas locales que los controlan\""
     },
     "C00189": {
       "disarm_id": "C00189",
       "tactic_id": "TA03",
       "metatechnique_id": "M003",
-      "name": "Ensure that platforms are taking down flagged accounts",
-      "summary": "Use ongoing analysis/monitoring of \"flagged\" profiles.  Confirm whether platforms are actively removing flagged accounts, and raise pressure via e.g. government organizations to encourage removal"
+      "name": "Garantizar que las plataformas eliminen cuentas marcadas",
+      "summary": "Utilizar análisis y monitoreo continuo de perfiles \"marcados\". Confirmar si las plataformas están eliminando activamente cuentas marcadas e incrementar presión a través de, por ejemplo, organismos gubernamentales para fomentar su eliminación"
     },
     "C00190": {
       "disarm_id": "C00190",
       "tactic_id": "TA01",
       "metatechnique_id": "M001",
-      "name": "open engagement with civil society",
-      "summary": "Government open engagement with civil society as an independent check on government action and messaging. Government seeks to coordinate and synchronize narrative themes with allies and partners while calibrating action in cases where elements in these countries may have been co-opted by competitor nations. Includes “fight in the light”: Use leadership in the arts, entertainment, and media to highlight and build on fundamental tenets of democracy."
+      "name": "Diálogo abierto con la sociedad civil",
+      "summary": "Participación gubernamental abierta con la sociedad civil como control independiente sobre acciones y mensajes gubernamentales. El gobierno busca coordinar y sincronizar temas narrativos con aliados y socios mientras calibra acciones en casos donde elementos en estos países pueden haber sido cooptados por naciones competidoras. Incluye \"luchar a la luz\": usar liderazgo en artes, entretenimiento y medios para destacar y construir sobre principios fundamentales de la democracia"
     },
     "C00195": {
       "disarm_id": "C00195",
       "tactic_id": "TA07",
       "metatechnique_id": "M002",
-      "name": "Redirect searches away from disinformation or extremist content ",
-      "summary": "Use Google AdWords to identify instances in which people search Google about particular fake-news stories or Russian propaganda themes. Taking advantage of the technology behind Google AdWords, this method identifies potential ISIS recruits through their Google searches and exposes them to curated YouTube videos debunking ISIS recruiting themes. Apply this method to Russian propaganda. Includes Monetize centrist SEO by subsidizing the difference in greater clicks towards extremist content. "
+      "name": "Redirigir búsquedas lejos de desinformación o contenido extremista",
+      "summary": "Usar Google AdWords para identificar instancias en las que personas buscan en Google historias de noticias falsas particulares o temas de propaganda rusa. Aprovechando la tecnología detrás de Google AdWords, este método identifica posibles reclutas del ISIS a través de sus búsquedas en Google y los expone a videos de YouTube curatorizado desacreditando temas de reclutamiento del ISIS. Aplicar este método a propaganda rusa. Incluye monetizar SEO centrista subsidiando la diferencia en mayores clics hacia contenido extremista"
     },
     "C00197": {
       "disarm_id": "C00197",
       "tactic_id": "TA03",
       "metatechnique_id": "M005",
-      "name": "remove suspicious accounts",
-      "summary": "Standard reporting for false profiles (identity issues).  Includes detecting hijacked accounts and reallocating them - if possible, back to original owners. "
+      "name": "Eliminar cuentas sospechosas",
+      "summary": "Reportería estándar para perfiles falsos (problemas de identidad). Incluye detectar cuentas secuestradas y reasignarlas, si es posible, a sus propietarios originales"
     },
     "C00200": {
       "disarm_id": "C00200",
       "tactic_id": "TA09",
       "metatechnique_id": "M010",
-      "name": "Respected figure (influencer) disavows misinfo",
-      "summary": "Has been done in e.g. India. FIXIT: standardize language used for influencer/ respected figure. "
+      "name": "Figura respetada (influenciador) desautoriza desinformación",
+      "summary": "Se ha realizado en, por ejemplo, India. PENDIENTE: estandarizar lenguaje utilizado para influenciador/figura respetada"
     },
     "C00202": {
       "disarm_id": "C00202",
       "tactic_id": "TA06",
       "metatechnique_id": "M002",
-      "name": "Set data 'honeytraps'",
-      "summary": "Set honeytraps in content likely to be accessed for disinformation.   NB Macron election team modified docs to spike a hack and leak. "
+      "name": "Establecer 'trampas de miel' de datos",
+      "summary": "Establecer trampas de miel en contenido probable de ser accedido para desinformación. NB: el equipo de campaña de Macron modificó documentos para sabotear un hackeo y filtración"
     },
     "C00203": {
       "disarm_id": "C00203",
       "tactic_id": "TA04",
       "metatechnique_id": "M004",
-      "name": "Stop offering press credentials to propaganda outlets",
-      "summary": "Remove access to official press events from known misinformation actors. "
+      "name": "Dejar de otorgar acreditaciones de prensa a medios de propaganda",
+      "summary": "Remover acceso a eventos oficiales de prensa de actores conocidos de desinformación"
     },
     "C00205": {
       "disarm_id": "C00205",
       "tactic_id": "TA01",
       "metatechnique_id": "M007",
-      "name": "strong dialogue between the federal government and private sector to encourage better reporting",
-      "summary": "Increase civic resilience by partnering with business community to combat gray zone threats and ensuring adequate reporting and enforcement mechanisms. "
+      "name": "Diálogo fuerte entre el gobierno federal y el sector privado para fomentar mejor reporte",
+      "summary": "Aumentar la resiliencia cívica asociándose con la comunidad empresarial para combatir amenazas de zona gris y garantizar mecanismos adecuados de reportería y aplicación"
     },
     "C00207": {
       "disarm_id": "C00207",
       "tactic_id": "TA02",
       "metatechnique_id": "M013",
-      "name": "Run a competing disinformation campaign - not recommended",
-      "summary": "E.g. Saudi tit-for-tat campaign "
+      "name": "Ejecutar una campaña de desinformación competidora - no recomendado",
+      "summary": "Por ejemplo, campaña de represalia de Arabia Saudí"
     },
     "C00211": {
       "disarm_id": "C00211",
       "tactic_id": "TA09",
       "metatechnique_id": "M010",
-      "name": "Use humorous counter-narratives",
-      "summary": "Examples:\n \n* Baltic Elves.\nhttps://balkaninsight.com/2019/06/07/disinformation-nation-the-slovaks-fighting-in-defence-of-facts/ \n* Taiwan humor over rumor strategy.https://www.theguardian.com/commentisfree/2021/feb/17/humour-over-rumour-taiwan-fake-news \n*  Taiwan “humor over rumour\" \nhttps://internews.org/story/using-comedy-and-social-media-educate-disinformation "
+      "name": "Usar contra-narrativas humorísticas",
+      "summary": "Ejemplos:\n\n* Duendes Bálticos.\nhttps://balkaninsight.com/2019/06/07/disinformation-nation-the-slovaks-fighting-in-defence-of-facts/\n* Estrategia de humor de Taiwán sobre rumores. https://www.theguardian.com/commentisfree/2021/feb/17/humour-over-rumour-taiwan-fake-news\n* \"Humor sobre rumores\" de Taiwán\nhttps://internews.org/story/using-comedy-and-social-media-educate-disinformation"
     },
     "C00212": {
       "disarm_id": "C00212",
       "tactic_id": "TA01",
       "metatechnique_id": "M001",
-      "name": "build public resilience by making civil society more vibrant",
-      "summary": "Increase public service experience, and support wider civics and history education."
+      "name": "Construir resiliencia pública haciendo la sociedad civil más vibrante",
+      "summary": "Aumentar la experiencia del servicio público y apoyar educación más amplia en civismo e historia"
     },
     "C00216": {
       "disarm_id": "C00216",
       "tactic_id": "TA05",
       "metatechnique_id": "M014",
-      "name": "Use advertiser controls to stem flow of funds to bad actors",
-      "summary": "Prevent ad revenue going to disinformation domains"
+      "name": "Usar controles de publicidad para detener flujo de fondos hacia actores maliciosos",
+      "summary": "Prevenir que ingresos por publicidad lleguen a dominios de desinformación"
     },
     "C00219": {
       "disarm_id": "C00219",
       "tactic_id": "TA06",
       "metatechnique_id": "M003",
-      "name": "Add metadata to content that’s out of the control of disinformation creators",
-      "summary": "Steganography. Adding date, signatures etc to stop issue of photo relabelling etc. "
+      "name": "Añadir metadatos a contenido fuera del control de creadores de desinformación",
+      "summary": "Esteganografía. Añadir fecha, firmas, etc. para evitar problema de reetiquetado de fotos"
     },
     "C00220": {
       "disarm_id": "C00220",
       "tactic_id": "TA01",
       "metatechnique_id": "M007",
-      "name": "Develop a monitoring and intelligence plan",
-      "summary": "Create a plan for misinformation and disinformation response, before it's needed.  Include connections / contacts needed, expected counteremessages etc. "
+      "name": "Desarrollar un plan de monitoreo e inteligencia",
+      "summary": "Crear un plan de respuesta a desinformación antes de que sea necesario. Incluir conexiones/contactos necesarios, contra-mensajes esperados, etc."
     },
     "C00221": {
       "disarm_id": "C00221",
       "tactic_id": "TA01",
       "metatechnique_id": "M007",
-      "name": "Run a disinformation red team, and design mitigation factors",
-      "summary": "Include PACE plans - Primary, Alternate, Contingency, Emergency"
+      "name": "Ejecutar un equipo rojo de desinformación y diseñar factores de mitigación",
+      "summary": "Incluir planes PACE - Primario, Alterno, Contingencia, Emergencia"
     },
     "C00222": {
       "disarm_id": "C00222",
       "tactic_id": "TA02",
       "metatechnique_id": "M007",
-      "name": "Tabletop simulations",
-      "summary": "Simulate misinformation and disinformation campaigns, and responses to them, before campaigns happen. "
+      "name": "Simulaciones de mesa",
+      "summary": "Simular campañas de desinformación y respuestas a ellas antes de que ocurran"
     },
     "C00223": {
       "disarm_id": "C00223",
       "tactic_id": "TA01",
       "metatechnique_id": "M001",
-      "name": "Strengthen Trust in social media platforms",
-      "summary": "Improve trust in the misinformation responses from social media and other platforms.  Examples include creating greater transparancy on their actions and algorithms. "
+      "name": "Fortalecer confianza en plataformas de redes sociales",
+      "summary": "Mejorar confianza en respuestas a desinformación de redes sociales y otras plataformas. Los ejemplos incluyen crear mayor transparencia en sus acciones y algoritmos"
     }
   },
   "incidents": {
@@ -3447,73 +3447,73 @@
   "metatechniques": {
     "M001": {
       "disarm_id": "M001",
-      "name": "resilience",
-      "summary": "Increase the resilience to disinformation of the end subjects or other parts of the underlying system"
+      "name": "resiliencia",
+      "summary": "Aumentar la resiliencia a la desinformación de los sujetos finales u otras partes del sistema subyacente"
     },
     "M002": {
       "disarm_id": "M002",
-      "name": "diversion",
-      "summary": "Create alternative channels, messages etc in disinformation-prone systems"
+      "name": "desviación",
+      "summary": "Crear canales alternativos, mensajes, etc. en sistemas propensos a la desinformación"
     },
     "M003": {
       "disarm_id": "M003",
-      "name": "daylight",
-      "summary": "Make disinformation objects, mechanisms, messaging etc visible"
+      "name": "transparencia",
+      "summary": "Hacer visibles los objetos de desinformación, mecanismos, mensajería, etc."
     },
     "M004": {
       "disarm_id": "M004",
-      "name": "friction",
-      "summary": "Slow down transmission or uptake of disinformation objects, messaging etc"
+      "name": "fricción",
+      "summary": "Ralentizar la transmisión o adopción de objetos de desinformación, mensajería, etc."
     },
     "M005": {
       "disarm_id": "M005",
-      "name": "removal",
-      "summary": "Remove disinformation objects from the system"
+      "name": "remoción",
+      "summary": "Remover objetos de desinformación del sistema"
     },
     "M006": {
       "disarm_id": "M006",
-      "name": "scoring",
-      "summary": "Use a rating system"
+      "name": "calificación",
+      "summary": "Utilizar un sistema de calificación"
     },
     "M007": {
       "disarm_id": "M007",
-      "name": "metatechnique",
+      "name": "metatécnica",
       "summary": ""
     },
     "M008": {
       "disarm_id": "M008",
-      "name": "data pollution",
-      "summary": "Add artefacts to the underlying system that deliberately confound disinformation monitoring"
+      "name": "contaminación de datos",
+      "summary": "Añadir artefactos al sistema subyacente que deliberadamente confundan el monitoreo de desinformación"
     },
     "M009": {
       "disarm_id": "M009",
-      "name": "dilution",
-      "summary": "Dilute disinformation artefacts and messaging with other content (kittens!)"
+      "name": "dilución",
+      "summary": "Diluir artefactos y mensajería de desinformación con otro contenido (¡gatitos!)"
     },
     "M010": {
       "disarm_id": "M010",
-      "name": "countermessaging",
-      "summary": "Create and distribute alternative messages to disinformation"
+      "name": "contramensajería",
+      "summary": "Crear y distribuir mensajes alternativos a la desinformación"
     },
     "M011": {
       "disarm_id": "M011",
-      "name": "verification",
-      "summary": "Verify objects, content, connections etc. Includes fact-checking"
+      "name": "verificación",
+      "summary": "Verificar objetos, contenido, conexiones, etc. Incluye verificación de hechos"
     },
     "M012": {
       "disarm_id": "M012",
-      "name": "cleaning",
-      "summary": "Clean unneeded resources (accounts etc) from the underlying system so they can't be used in disinformation"
+      "name": "limpieza",
+      "summary": "Limpiar recursos innecesarios (cuentas, etc.) del sistema subyacente para que no puedan ser utilizados en desinformación"
     },
     "M013": {
       "disarm_id": "M013",
-      "name": "targeting",
-      "summary": "Target the components of a disinformation campaign"
+      "name": "focalización",
+      "summary": "Dirigirse a los componentes de una campaña de desinformación"
     },
     "M014": {
       "disarm_id": "M014",
-      "name": "reduce resources",
-      "summary": "Reduce the resources available to disinformation creators"
+      "name": "reducción de recursos",
+      "summary": "Reducir los recursos disponibles para los creadores de desinformación"
     }
   }
 }
