@@ -1,0 +1,24 @@
+DISARM Tagger (disarm.j-lab.tools)
+==================================
+
+This tool is built on the DISARM Frameworks.
+
+  DISARM Frameworks v1.7
+  © DISARM Foundation
+  Licensed under Creative Commons Attribution-ShareAlike 4.0 International
+  (CC BY-SA 4.0)
+  Source: https://github.com/DISARMFoundation/DISARMframeworks-17
+
+The framework content shipped in data/disarm_en.json (phase, tactic, technique
+and counter names and summaries, and their relations) is derived from the
+DISARM Frameworks and remains licensed CC BY-SA 4.0.
+
+The Spanish translation of that content (data/disarm_es.json) is a derivative
+work produced by J-Lab and is likewise released under CC BY-SA 4.0, with
+attribution to the DISARM Foundation.
+
+Per CC BY-SA, any redistribution of the framework content or its translation
+must keep this attribution and be shared under the same license.
+
+The application code (app.py, scripts/, templates/, static/) is © J-Lab and is
+licensed separately — see LICENSE.

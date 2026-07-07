@@ -1,0 +1,20 @@
+# Render Blueprint — one-click deploy for disarm.j-lab.tools
+services:
+  - type: web
+    name: disarm-jlab
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.7"
+      # Server-side Anthropic key enables the grounded AI tagging.
+      # Set this as a secret in the Render dashboard (never commit it).
+      # Without it, the tagger falls back to the local keyword engine.
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: ANTHROPIC_MODEL
+        value: claude-haiku-4-5
+      - key: AI_MAX_TOOL_TURNS
+        value: "4"

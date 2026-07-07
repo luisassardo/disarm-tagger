@@ -1,0 +1,9 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# Working artifact from --review (regenerable); not part of the shipped dataset.
+data/translation_review.csv
+# Local dev tooling (machine-specific absolute paths).
+.claude/

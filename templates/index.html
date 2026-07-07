@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DISARM Tagger · J-LAB</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='argus/desk.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+</head>
+<body class="desk" data-desk="disarm" data-ai="{{ 'on' if ai_enabled else 'off' }}">
+
+  <!-- ===================== RAIL ===================== -->
+  <nav class="rail">
+    <div class="rail-brand">
+      <span class="mk" data-ico="crosshair"></span>
+      <span class="wm">
+        <b>DISARM<span class="ac"> Tagger</span></b>
+        <span>J-LAB · disarm.j-lab.tools</span>
+      </span>
+    </div>
+    <div class="rail-scroll">
+      <div class="nav-label" data-en="Workspace" data-es="Espacio">Workspace</div>
+      <div class="nav-item active" data-view="hub">
+        <span data-ico="radar"></span>
+        <span class="nav-text" data-en="Analyze case" data-es="Analizar caso">Analyze case</span>
+      </div>
+      <div class="nav-item" data-view="framework">
+        <span data-ico="layers"></span>
+        <span class="nav-text" data-en="Framework" data-es="Framework">Framework</span>
+      </div>
+      <div class="nav-label" data-en="About" data-es="Acerca de">About</div>
+      <a class="nav-item" href="https://github.com/DISARMFoundation" target="_blank" rel="noopener">
+        <span data-ico="book"></span>
+        <span class="nav-text">DISARM</span>
+      </a>
+    </div>
+    <div class="rail-foot">
+      <div class="rail-status"><span class="live-dot"></span><span data-en="Framework v1.7 loaded" data-es="Framework v1.7 cargado">Framework v1.7 loaded</span></div>
+      <a class="rail-up" href="https://j-lab.tools" target="_blank" rel="noopener">
+        <span data-ico="arrowUpRight"></span><span data-en="J-LAB tools" data-es="Herramientas J-LAB">J-LAB tools</span>
+      </a>
+    </div>
+  </nav>
+  <span class="rail-scrim"></span>
+
+  <!-- ===================== MAIN COLUMN ===================== -->
+  <div class="col">
+    <header class="topbar">
+      <button class="rail-toggle" data-ico="grid"></button>
+      <span class="crumb"><span>J-LAB</span><span class="sep">/</span><span class="cur" data-en="Analyze case" data-es="Analizar caso">Analyze case</span></span>
+      <span class="spacer"></span>
+      <span class="disclaimer-bar" data-en="Leads, not verdicts" data-es="Pistas, no veredictos">Leads, not verdicts</span>
+      <span class="tb-status" id="ai-status"></span>
+      <span class="clock mono" id="clock">--:--:--</span>
+      <span class="langtog" data-lang-toggle>
+        <button data-lang="en" data-set-lang="en">EN</button>
+        <button data-lang="es" data-set-lang="es">ES</button>
+      </span>
+    </header>
+
+    <div class="viewport">
+      <!-- ============ VIEW: ANALYZE ============ -->
+      <section class="view" data-view="hub">
+        <div class="view-eyebrow"><span data-ico="crosshair"></span><span data-en="DISARM tagging" data-es="Etiquetado DISARM">DISARM tagging</span></div>
+        <h1 class="view-title" data-en-html="Map a case to <span class='ac'>DISARM</span>" data-es-html="Mapea un caso a <span class='ac'>DISARM</span>">Map a case to <span class="ac">DISARM</span></h1>
+        <p class="view-lead"
+           data-en="Describe a suspected disinformation case in plain language and add any links. The assistant returns the DISARM techniques, tactics and counters involved, similar documented cases, and tools to take it further."
+           data-es="Describe en lenguaje natural un caso de desinformación sospechoso y agrega enlaces. El asistente devuelve las técnicas, tácticas y contramedidas DISARM involucradas, casos similares documentados y herramientas para profundizar.">
+          Describe a suspected disinformation case in plain language and add any links.
+        </p>
+
+        <!-- ROW 1: case description | similar documented cases -->
+        <div class="hub-top" style="margin-top:26px;">
+          <div class="panel">
+            <div class="ph"><span data-ico="document"></span><span data-en="Case description" data-es="Descripción del caso">Case description</span></div>
+            <textarea class="case-input" id="case-input"
+              data-en-ph="e.g. A network of newly-created accounts posted identical messages amplifying a false claim about election fraud, using AI-generated profile photos and a fake news site as the source. Bots spread it and trolls attacked the journalists who debunked it."
+              data-es-ph="ej. Una red de cuentas recién creadas publicó mensajes idénticos amplificando una afirmación falsa sobre fraude electoral, usando fotos de perfil generadas por IA y un sitio de noticias falso como fuente. Bots lo difundieron y trolls atacaron a periodistas que lo desmintieron."></textarea>
+            <div class="links-wrap" id="links-wrap"></div>
+            <button class="link-add" id="link-add"><span data-ico="arrowUpRight"></span><span data-en="Add link" data-es="Agregar enlace">Add link</span></button>
+            <div class="run-row">
+              <button class="btn-run" id="analyze"><span data-ico="flash"></span><span data-en="Analyze" data-es="Analizar">Analyze</span></button>
+              <span class="engine-badge" id="engine-badge"></span>
+              <span class="spacer" style="flex:1"></span>
+              <button class="btn-line" id="export-md" disabled><span data-ico="download"></span><span data-en="Report" data-es="Informe">Report</span></button>
+              <button class="btn-line" id="export-layer" disabled><span data-ico="layers"></span><span data-en="Layer" data-es="Capa">Layer</span></button>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="ph"><span data-ico="globe"></span><span data-en="Similar documented cases" data-es="Casos similares documentados">Similar documented cases</span></div>
+            <div class="cases-list" id="cases-list">
+              <p class="empty-hint" data-en="Real influence operations from the DISARM record that used the same techniques will appear here after you analyze a case, each with a link to read more." data-es="Aquí aparecerán operaciones de influencia reales del registro DISARM que usaron las mismas técnicas, cada una con un enlace para leer más, tras analizar un caso.">Real documented cases appear here after analysis.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ROW 2: techniques | tactics | counters -->
+        <div class="section-h"><h2 data-en="Analysis" data-es="Análisis">Analysis</h2><span class="ln"></span><span class="more" id="status-line"></span></div>
+        <div class="cols3">
+          <div class="acol">
+            <div class="acol-h"><span data-ico="crosshair"></span><span data-en="Techniques" data-es="Técnicas">Techniques</span><span class="n" id="n-tech"></span></div>
+            <div id="col-techniques"><p class="empty-hint" data-en="Detected techniques show here. Confirm the ones that fit." data-es="Las técnicas detectadas aparecen aquí. Confirma las que apliquen.">Detected techniques show here.</p></div>
+          </div>
+          <div class="acol">
+            <div class="acol-h"><span data-ico="layers"></span><span data-en="Tactics" data-es="Tácticas">Tactics</span><span class="n" id="n-tac"></span></div>
+            <div id="col-tactics"><p class="empty-hint" data-en="The DISARM tactics these techniques belong to." data-es="Las tácticas DISARM a las que pertenecen estas técnicas.">Tactics appear here.</p></div>
+          </div>
+          <div class="acol">
+            <div class="acol-h"><span data-ico="shield"></span><span data-en="Counters" data-es="Contramedidas">Counters</span><span class="n" id="n-cnt"></span></div>
+            <div id="col-counters"><p class="empty-hint" data-en="Mitigations mapped to the detected techniques. Green = suggested for this case." data-es="Mitigaciones mapeadas a las técnicas detectadas. Verde = sugerida para este caso.">Counters appear here.</p></div>
+          </div>
+        </div>
+
+        <!-- ROW 3: tools & resources -->
+        <div class="section-h"><h2 data-en="Tools & resources for this case" data-es="Herramientas y recursos para este caso">Tools & resources</h2><span class="ln"></span></div>
+        <div class="tiles" id="resources"><p class="empty-hint" data-en="Recommended J-LAB tools and external resources appear here based on the tactics involved." data-es="Aquí aparecen herramientas J-LAB y recursos externos recomendados según las tácticas involucradas.">Tools and resources appear here.</p></div>
+
+        <div class="attrib-foot">
+          <span data-en="Built on the" data-es="Construido sobre los">Built on the</span>
+          <a href="https://github.com/DISARMFoundation/DISARMframeworks-17" target="_blank" rel="noopener">DISARM Frameworks v1.7</a>,
+          &copy; DISARM Foundation, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.
+          <span data-en="Spanish translation &copy; J-Lab, CC BY-SA 4.0. App code MIT." data-es="Traducción al español &copy; J-Lab, CC BY-SA 4.0. Código de la app MIT.">Spanish translation &copy; J-Lab.</span>
+        </div>
+      </section>
+
+      <!-- ============ VIEW: FRAMEWORK (browser) ============ -->
+      <section class="view" data-view="framework" hidden>
+        <div class="view-eyebrow"><span data-ico="layers"></span><span data-en="Reference" data-es="Referencia">Reference</span></div>
+        <h1 class="view-title" data-en="DISARM framework" data-es="Framework DISARM">DISARM framework</h1>
+        <p class="view-lead" data-en="The full DISARM v1.7 tree: phases, tactics and techniques. Click any item to read its definition." data-es="El árbol completo de DISARM v1.7: fases, tácticas y técnicas. Pincha cualquier elemento para leer su definición.">The full DISARM v1.7 tree.</p>
+        <div id="framework-tree" style="margin-top:22px;"></div>
+      </section>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='argus/icons.js') }}"></script>
+  <script src="{{ url_for('static', filename='argus/node.js') }}"></script>
+  <script src="{{ url_for('static', filename='argus/desk.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
