@@ -2,7 +2,7 @@
 
 ## Reporting
 
-Found a vulnerability? Email **luisassardo@gmail.com**. Please do not open a
+Found a vulnerability? Email **security@j-lab.tools**. Please do not open a
 public issue for sensitive reports.
 
 ## Handling of secrets
