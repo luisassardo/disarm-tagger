@@ -14,7 +14,7 @@ translation is a derivative and is likewise released CC BY-SA 4.0. See NOTICE.
 
 Usage:
     python scripts/build_dataset.py \
-        --sqlite ../../DISARMframeworks-17/generated_files/DISARM_database.sqlite
+        --sqlite ../_shared/DISARMframeworks-17/generated_files/DISARM_database.sqlite
     python scripts/build_dataset.py --translate     # also (re)build Spanish via Claude
 
 The dataset is regenerable from upstream without touching the app code.
@@ -37,7 +37,7 @@ ROOT = os.path.dirname(HERE)
 DATA_DIR = os.path.join(ROOT, 'data')
 
 DEFAULT_SQLITE = os.path.normpath(
-    os.path.join(ROOT, '..', '..', 'DISARMframeworks-17',
+    os.path.join(ROOT, '..', '_shared', 'DISARMframeworks-17',
                  'generated_files', 'DISARM_database.sqlite')
 )
 

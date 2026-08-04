@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 # 1. Build the dataset from the upstream DISARM SQLite (run once / on updates):
 python scripts/build_dataset.py \
-  --sqlite ../../DISARMframeworks-17/generated_files/DISARM_database.sqlite
+  --sqlite ../_shared/DISARMframeworks-17/generated_files/DISARM_database.sqlite
 
 # 2. (optional) Fill Spanish translations via Claude — needs ANTHROPIC_API_KEY:
 python scripts/build_dataset.py --translate
