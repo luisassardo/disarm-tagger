@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-build_dataset.py — DISARM v1.7 SQLite -> normalized JSON for the tagger.
+build_dataset.py · DISARM v1.7 SQLite -> normalized JSON for the tagger.
 
 Reads the master SQLite shipped in DISARMframeworks-17 and emits a single,
 nested, app-ready dataset:

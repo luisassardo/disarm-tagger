@@ -1,4 +1,4 @@
-# Render Blueprint — one-click deploy for disarm.j-lab.tools
+# Render Blueprint · one-click deploy for disarm.j-lab.tools
 services:
   - type: web
     name: disarm-jlab

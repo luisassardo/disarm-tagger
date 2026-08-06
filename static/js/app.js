@@ -1,4 +1,4 @@
-/* DISARM Tagger — frontend. Renders the analysis bundle from /api/suggest into
+/* DISARM Tagger · frontend. Renders the analysis bundle from /api/suggest into
    the ARGUS desk shell. i18n is bridged from node.js (window.ArgusLang). */
 (function () {
   const $ = (s, r) => (r || document).querySelector(s);
