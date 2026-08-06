@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='argus/desk.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
 </head>
-<body class="desk" data-desk="disarm" data-ai="{{ 'on' if ai_enabled else 'off' }}">
+<body class="desk{% if embed %} embedded{% endif %}" data-desk="disarm" data-ai="{{ 'on' if ai_enabled else 'off' }}">
 
   <!-- ===================== RAIL ===================== -->
   <nav class="rail">
@@ -142,5 +142,6 @@
   <script src="{{ url_for('static', filename='argus/node.js') }}"></script>
   <script src="{{ url_for('static', filename='argus/desk.js') }}"></script>
   <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/embedded.js') }}"></script>
 </body>
 </html>

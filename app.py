@@ -29,7 +29,9 @@ except ImportError:  # keep the app runnable without the SDK (falls back to loca
     anthropic = None
 
 app = Flask(__name__)
-CORS(app)
+# Same-origin by default. The desk needs no CORS to frame us (that is
+# frame-ancestors), so the only allowed origin is the platform itself.
+CORS(app, origins=["https://j-lab.tools"])
 
 # Per-IP rate limit on the AI endpoint (defense against a single abuser draining
 # the daily budget). In-memory storage is fine for a single Railway instance.
@@ -476,10 +478,44 @@ def build_bundle(techniques, lang):
 
 # ==================== ROUTES ====================
 
+# ==================== response headers (STD-021) ====================
+
+PLATFORM = "https://j-lab.tools"
+
+
+@app.after_request
+def _security_headers(resp):
+    """The baseline, plus the one framing exception the desk needs.
+
+    frame-ancestors names the platform instead of 'none': this tool runs
+    inside the J-LAB desk (STD-024). It is an allowlist of one, never *, and
+    X-Frame-Options is deliberately absent because it has no allowlist form
+    and would override the CSP in older browsers.
+    """
+    resp.headers.setdefault("Content-Security-Policy", (
+        "default-src 'self'; "
+        "script-src 'self'; "
+        "style-src 'self' https://fonts.googleapis.com; "
+        "font-src 'self' https://fonts.gstatic.com; "
+        "img-src 'self' data:; "
+        "connect-src 'self'; "
+        "frame-ancestors " + PLATFORM + "; "
+        "base-uri 'self'; form-action 'self'"))
+    resp.headers.setdefault("Referrer-Policy", "no-referrer")
+    resp.headers.setdefault("X-Content-Type-Options", "nosniff")
+    resp.headers.setdefault("Permissions-Policy",
+                            "interest-cohort=(), geolocation=(), camera=(), microphone=()")
+    resp.headers.setdefault("Cross-Origin-Resource-Policy", "same-site")
+    if resp.mimetype in ("text/html", "text/css", "application/javascript"):
+        resp.headers.setdefault("Cache-Control", "no-cache")
+    return resp
+
+
 @app.route('/')
 def index():
     lang = resolve_lang()
-    return render_template('index.html', lang=lang, ai_enabled=AI_ENABLED)
+    return render_template('index.html', lang=lang, ai_enabled=AI_ENABLED,
+                           embed=request.args.get('embed') == '1')
 
 
 @app.route('/api/health')

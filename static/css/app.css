@@ -100,3 +100,15 @@
 .attrib-foot { margin-top: 38px; padding-top: 18px; border-top: 1px solid var(--line-soft); font-size: 12px; line-height: 1.6; color: var(--dim); max-width: 70ch; }
 .attrib-foot a { color: var(--mid); text-decoration: underline; text-underline-offset: 2px; }
 .attrib-foot a:hover { color: var(--accent); }
+
+/* ==================== EMBEDDED IN THE J-LAB DESK (STD-024) ====================
+   The desk supplies the rail, the topbar and the language toggle, so ours
+   would be a second set of chrome around the same work. Hide them and let the
+   work area use the full frame. */
+.desk.embedded { grid-template-columns: 1fr; }
+.desk.embedded .rail,
+.desk.embedded .rail-scrim,
+.desk.embedded .rail-toggle,
+.desk.embedded .topbar { display: none; }
+.desk.embedded .col { grid-template-rows: 1fr; }
+.desk.embedded .view { padding-top: 22px; }
