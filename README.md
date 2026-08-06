@@ -1,4 +1,4 @@
-# DISARM Tagger — `disarm.j-lab.tools`
+# DISARM Tagger · `disarm.j-lab.tools`
 
 A journalist-facing tool for mapping disinformation campaigns to the
 [DISARM Framework](https://github.com/DISARMFoundation). Instead of ticking
@@ -33,7 +33,7 @@ i18n is attribute-based (`data-en`/`data-es`) via `window.ArgusLang`.
 
 - **Row 1**: case description (with optional links) · similar documented cases
   (real DISARM incidents + a "read reports" search link each).
-- **Row 2**: three columns — Techniques · Tactics · Counters. Counters are
+- **Row 2**: three columns: Techniques · Tactics · Counters. Counters are
   color-coded (green = suggested for this case).
 - **Row 3**: recommended tools & resources (J-LAB tools + external orgs),
   ranked by the tactics involved.
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 python scripts/build_dataset.py \
   --sqlite ../_shared/DISARMframeworks-17/generated_files/DISARM_database.sqlite
 
-# 2. (optional) Fill Spanish translations via Claude — needs ANTHROPIC_API_KEY:
+# 2. (optional) Fill Spanish translations via Claude, needs ANTHROPIC_API_KEY:
 python scripts/build_dataset.py --translate
 
 # 3. Run:
