@@ -10,7 +10,7 @@ Degrades gracefully to a local keyword engine when no API key is set.
 Deployable on Render (see render.yaml), Railway, or any Python host.
 """
 
-from flask import Flask, jsonify, request, render_template, make_response
+from flask import Flask, jsonify, request, render_template, make_response, redirect
 from flask_cors import CORS
 import os
 import json
@@ -513,9 +513,15 @@ def _security_headers(resp):
 
 @app.route('/')
 def index():
-    lang = resolve_lang()
-    return render_template('index.html', lang=lang, ai_enabled=AI_ENABLED,
-                           embed=request.args.get('embed') == '1')
+    """The tool's home is the desk (desk-first, signed 2026-08-14).
+
+    The standalone page retired under STD-022.7: DISARM is not on the
+    vitrina allowlist, it runs as a native screen in j-lab.tools, and this
+    service keeps serving only the API the desk relays to (/api/framework,
+    /api/suggest, /api/report, /api/health). A redirect rather than a 404
+    because the old address travelled in links and bookmarks.
+    """
+    return redirect("https://j-lab.tools/", code=301)
 
 
 @app.route('/api/health')
