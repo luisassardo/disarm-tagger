@@ -11,7 +11,6 @@ Deployable on Render (see render.yaml), Railway, or any Python host.
 """
 
 from flask import Flask, jsonify, request, render_template, make_response, redirect
-from flask_cors import CORS
 import os
 import json
 import re
@@ -29,9 +28,16 @@ except ImportError:  # keep the app runnable without the SDK (falls back to loca
     anthropic = None
 
 app = Flask(__name__)
-# Same-origin by default. The desk needs no CORS to frame us (that is
-# frame-ancestors), so the only allowed origin is the platform itself.
-CORS(app, origins=["https://j-lab.tools"])
+# No CORS at all, and the dependency is gone with it.
+#
+# It allowed https://j-lab.tools back when the desk called this API from the
+# browser. It does not: the desk relays server-side (j-lab-site/disarm.py),
+# because its CSP is `connect-src 'self'` and that restriction is the point,
+# not an obstacle. Nothing else calls this cross-origin either, since the
+# public page retired to a redirect on 2026-08-14. A permission nobody uses is
+# still a permission: flask-cors carried five advisories, one of them HIGH
+# (`Access-Control-Allow-Private-Network` true by default), and removing it
+# closes all five without pinning anything.
 
 # Per-IP rate limit on the AI endpoint (defense against a single abuser draining
 # the daily budget). In-memory storage is fine for a single Railway instance.
